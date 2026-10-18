@@ -13,6 +13,17 @@
 ![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?logo=supabase&logoColor=white)
 ![RunPod](https://img.shields.io/badge/RunPod-673AB7)
 
+<table>
+  <tr>
+    <td align="center"><img src="docs/screenshots/welcome.png" width="200" alt="Welcome screen"><br><sub><b>Welcome</b></sub></td>
+    <td align="center"><img src="docs/screenshots/menu.png" width="200" alt="Menu with categories and product photos"><br><sub><b>Menu</b></sub></td>
+    <td align="center"><img src="docs/screenshots/details.png" width="200" alt="Product details with size and add to bag"><br><sub><b>Item details</b></sub></td>
+    <td align="center"><img src="docs/screenshots/chat.png" width="200" alt="AI barista recommending vegan items with add-to-order chips"><br><sub><b>AI barista</b></sub></td>
+  </tr>
+</table>
+
+<sub>The chat screenshot is a real reply from the deployed assistant: vegan suggestions from the recommender, an allergen note from the knowledge base, and tappable "+ add" chips.</sub>
+
 ---
 
 ## At a glance
