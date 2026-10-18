@@ -1,23 +1,52 @@
 # Bleecker & Bloom: AI Coffee Shop Assistant ☕
 
-A coffee-shop ordering app with an AI assistant that answers questions, recommends items, and takes orders through chat, grounded in the shop's real menu and real sales data.
+**An AI barista that answers questions, recommends drinks and food, and takes orders for a coffee shop, without making things up.**
 
-**🔗 Live demo:** https://bleecker-and-bloom.expo.app
-<sub>Works on phone and desktop. The first chat message can take about a minute while the servers wake up.</sub>
+**🔗 Live demo:** [bleecker-and-bloom.expo.app](https://bleecker-and-bloom.expo.app) <sub>(works on phone and desktop; the first chat message can take about a minute while the servers wake up)</sub>
 
-> **In one line:** an AI barista that answers questions, recommends drinks and food, and takes orders for a coffee shop, without making things up.
+![React Native](https://img.shields.io/badge/React_Native-20232A?logo=react&logoColor=61DAFB)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white)
+![Llama 3.1](https://img.shields.io/badge/Llama_3.1_8B-0467DF?logo=meta&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?logo=supabase&logoColor=white)
+![RunPod](https://img.shields.io/badge/RunPod-673AB7)
+
+---
+
+## At a glance
+
+A full-stack, deployed AI product: a cross-platform shopping app plus a multi-agent LLM backend that answers from the shop's own documents, recommends items using a model trained on real sales data, and keeps an accurate cart through conversation.
+
+| | |
+|---|---|
+| **Built** | End-to-end: mobile/web app, agent backend, retrieval pipeline, recommender, database, cloud deployment |
+| **AI techniques** | Multi-agent orchestration, RAG (hybrid search), structured LLM outputs, recommender systems, offline evaluation |
+| **Answer accuracy** | **23/23** correct on a labeled test set, **5/5** correctly says "not sure" instead of guessing |
+| **Retrieval** | **98%** of questions find the right document in the top 4 |
+| **Recommendations** | **4.7×** better than a popularity baseline (33.8% vs 7.2% Hit@3 on 3,508 real baskets) |
+| **Deployed** | Agent API in Docker on RunPod Serverless, self-hosted Llama 3.1 8B, web app on Expo Hosting |
+
+## Highlights
+
+- **Designed a 5-agent LLM system** (guard, classifier, and three specialists) that routes each customer message to the right expert.
+- **Built a RAG pipeline from scratch:** heading-based chunking of 19 documents, hybrid BM25 + vector search with rank fusion, citations, and query rewriting. It improved first-result accuracy from 70% (keyword only) to 91%.
+- **Trained a recommender on 49,894 real sales line items.** I found and fixed a data bug in how receipts were grouped into baskets, which raised accuracy from 25.6% to 33.6%, and added dietary filters, explanations, and cold-start handling for 30 new items.
+- **Made a small 8B model reliable** by constraining its output to a JSON schema of real menu items and moving all cart math into code, so orders and totals are always correct.
+- **Found and fixed a safety failure through evaluation:** a model called the Almond Croissant safe for nut allergies. Allergy answers now come directly from the allergen data.
+- **Shipped it:** Supabase (Postgres with Row Level Security, anonymous auth, storage), a Docker image on RunPod Serverless, and a public web app.
 
 ---
 
 ## Contents
 
 1. [What it's for](#what-its-for)
-1. [Why I built it](#why-i-built-it)
-2. [What it does](#what-it-does)
+2. [The problem](#the-problem)
 3. [Architecture](#architecture)
 4. [How a message is handled](#how-a-message-is-handled)
 5. [Key design decisions](#key-design-decisions)
-6. [Results](#results)
+6. [Evaluation](#evaluation)
 7. [Tech stack](#tech-stack)
 8. [Project structure](#project-structure)
 9. [Run it locally](#run-it-locally)
@@ -27,41 +56,31 @@ A coffee-shop ordering app with an AI assistant that answers questions, recommen
 
 ## What it's for
 
-Bleecker & Bloom is a coffee shop's ordering app with a built-in AI assistant. Customers can browse the menu and order the usual way, or just chat with it like they would with a barista.
+Bleecker & Bloom is a coffee shop's ordering app with a built-in AI assistant. Customers can browse the menu and order the usual way, or chat with it like they would with a barista.
 
 **For customers**
 
-- **Ask questions:** "Is the almond croissant safe for a nut allergy?", "Do you deliver?", "What are your hours?" Answers come from the shop's own information, with sources.
+- **Ask questions:** "Is the almond croissant safe for a nut allergy?", "Do you deliver?" Answers come from the shop's own information, with sources.
 - **Order by chatting:** "Two lattes and a croissant" → "make it one latte" → "that's all". The cart updates and the total is always correct.
-- **Get suggestions:** "Something vegan under $5" or "What goes with my latte?" Recommendations are based on what real customers buy together.
-- **Browse and buy:** menu with photos, item details, cart, and checkout.
+- **Get suggestions:** "Something vegan under $5" or "What goes with my latte?" Recommendations come from what real customers buy together.
+- **Browse and buy:** a 64-item menu in 8 categories with photos, item details, cart, and checkout.
 
-**For the coffee shop**
+**For the business**
 
-- **Less work for staff:** the assistant answers the same questions (hours, allergens, delivery) all day.
-- **More sales:** useful "you might also like…" suggestions add items to orders, like "Customers also bought" in online stores.
-- **Safety and trust:** it never invents menu items or prices, and allergy answers come straight from the allergen data.
-- **Always available:** customers can order or ask questions at any hour, from their phone.
+- **Less work for staff:** routine questions (hours, allergens, delivery) are answered automatically.
+- **More sales:** relevant "you might also like…" suggestions increase order size.
+- **Trust:** it never invents menu items or prices, and safety answers come straight from the data.
+- **Always available:** customers can order at any hour, from their phone.
 
-## Why I built it
+## The problem
 
-Chatbots for ordering usually fail in the same ways:
+Ordering chatbots usually fail in three ways:
 
-- **They make things up.** A plain LLM will happily invent menu items, prices, or allergy facts.
-- **They lose the order.** Carts get scrambled over a long conversation, and totals don't add up.
-- **Their recommendations are generic.** "You might like a muffin" isn't based on what customers actually buy.
+- **They make things up:** a plain LLM invents menu items, prices, or allergy facts.
+- **They lose the order:** carts get scrambled over a long conversation, and totals don't add up.
+- **Their recommendations are generic:** they aren't based on what customers actually buy.
 
-The goal of this project was an assistant a real coffee shop could trust: **the LLM understands the customer and writes the reply, while code and data supply the facts** (the menu, prices, allergens, and what people actually buy together).
-
-## What it does
-
-| Feature | How it works |
-|---|---|
-| 💬 **Answers questions** | Searches a knowledge base of 19 documents (menu, allergens, delivery, loyalty program, FAQ) and shows the sources under each answer |
-| 🛒 **Takes orders by chat** | "Two lattes and a croissant" updates the cart; prices always come from the menu |
-| ✨ **Recommends items** | Suggests what goes well together based on 39,192 real coffee-shop baskets, with dietary filters and a reason for each suggestion |
-| 🛡️ **Stays on topic and safe** | Blocks unrelated requests; allergy questions are answered straight from the allergen data, not by the model |
-| 📱 **Full shop app** | 64-item menu in 8 categories with photos, item details, cart, and checkout, on web and mobile |
+**My approach:** the LLM understands the customer and writes the reply, while code and data supply the facts (the menu, prices, allergens, and real purchase patterns).
 
 ## Architecture
 
@@ -95,21 +114,17 @@ flowchart LR
     Agents --> Rec --> Model
 ```
 
-**Three parts:**
-
 - **App:** React Native with Expo, so one codebase runs on web, iOS, and Android. The menu and photos load from Supabase.
-- **Agent API:** a Python service packaged as a Docker image and run on RunPod Serverless. It routes each message to the right agent.
-- **LLM:** Llama 3.1 8B served by vLLM on RunPod. Any OpenAI-compatible model works (OpenAI, Ollama) by changing a setting.
-
-### The agents
+- **Agent API:** a Python service packaged as a Docker image and run on RunPod Serverless.
+- **LLM:** Llama 3.1 8B served by vLLM on RunPod. Any OpenAI-compatible model (OpenAI, Ollama) works by changing a setting.
 
 | Agent | Job |
 |---|---|
 | **Guard** | Lets through only requests about the shop |
 | **Classifier** | Decides which specialist should answer |
-| **Details** | Answers questions using retrieval (RAG) over the knowledge base, with citations |
+| **Details** | Answers questions with RAG over the knowledge base, with citations |
 | **Order Taking** | Updates the cart, totals it, and confirms the order |
-| **Recommendation** | Turns a request ("something vegan under $5") into filters and asks the recommender engine |
+| **Recommendation** | Turns a request ("something vegan under $5") into filters for the recommender engine |
 
 ## How a message is handled
 
@@ -127,32 +142,46 @@ flowchart TD
     Recommend --> Extract["LLM extracts needs<br/>(diet, budget, category)"] --> Engine["Engine picks items<br/>from sales data"]
 ```
 
-Every reply has the same shape (`role`, `content`, `memory`). The `memory` carries the cart, the sources, and recommendation chips, which the app displays.
-
 ## Key design decisions
 
 | Decision | Why |
 |---|---|
 | **The LLM understands and writes; code decides the facts** | The assistant can never recommend or price something the shop doesn't sell |
 | **Hybrid search (BM25 + vectors)** | Keyword search catches exact item names; vectors catch paraphrases like "something without milk" |
-| **Order changes through a strict JSON schema** | The model can only name real menu items, and code does all the arithmetic, so the cart and total always agree, even with a small 8B model |
-| **Allergy answers come straight from the data** | In testing, a small model once called the Almond Croissant safe for nut allergies; safety answers shouldn't depend on the model |
+| **Order changes through a strict JSON schema** | The model can only name real menu items and code does the arithmetic, so the cart is always right, even with an 8B model |
+| **Allergy answers come straight from the data** | Safety answers shouldn't depend on the model |
 | **Recommender trained on real baskets, no synthetic data** | Suggestions and evaluations reflect what real customers buy |
+| **Confidence over lift for ranking** | Chosen by offline evaluation (33.6% vs 27.9%); lift over-rewards rare pairings |
 | **Prices always recomputed on the server** | The app only sends item names and quantities, so prices can't be tampered with |
-| **One menu file** (`products.jsonl`) | The app, agents, and recommender all read the same source, so they never disagree |
 
-## Results
+## Evaluation
 
-All numbers come from offline evaluations you can rerun from `python_code/api`.
+Every component has an offline evaluation that can be rerun from `python_code/api`.
 
-| Evaluation | Result |
+**Retrieval** (64 labeled questions)
+
+| Method | Hit@1 | Hit@4 | MRR |
+|---|---|---|---|
+| Keyword only (BM25) | 70% | 91% | 0.785 |
+| Vector only | 89% | 98% | 0.935 |
+| **Hybrid (used)** | **91%** | **98%** | **0.943** |
+
+**Answers** (23 factual questions + 5 the documents can't answer)
+
+| Model | Correct | Says "not sure" when it should |
+|---|---|---|
+| Llama 3.1 8B (self-hosted) | **23/23** | **5/5** |
+| GPT-4o-mini | **23/23** | **5/5** |
+
+**Recommendations** (trained on April 1–22, tested on 3,508 baskets from April 23–29)
+
+| Method | Hit@3 |
 |---|---|
-| **Retrieval:** correct document in top 4 (64 questions) | **98%** |
-| **Answers:** correct answers (23 questions) | **23/23** with Llama 3.1 8B and GPT-4o-mini |
-| **Honesty:** says "not sure" when the info isn't there (5 questions) | **5/5** |
-| **Recommendations:** hidden item found in top 3 (3,508 real baskets) | **33.8%**, vs 7.2% for "most popular" |
+| Most popular items | 7.2% |
+| Original basket grouping | 25.6% |
+| **Fixed grouping + one-drink rule (used)** | **33.8%** |
 
-Full details are in [ARCHITECTURE.md](ARCHITECTURE.md).
+Full write-up: [ARCHITECTURE.md](ARCHITECTURE.md)
 
 ## Tech stack
 
@@ -160,8 +189,8 @@ Full details are in [ARCHITECTURE.md](ARCHITECTURE.md).
 |---|---|
 | **App** | React Native, Expo Router, TypeScript, NativeWind |
 | **Backend** | Python, FastAPI, Docker, RunPod Serverless |
-| **AI** | Llama 3.1 8B (vLLM), OpenAI embeddings, Chroma, BM25 |
-| **Data** | Supabase (Postgres, Auth, Storage), pandas |
+| **AI / ML** | Llama 3.1 8B (vLLM), OpenAI embeddings, Chroma, BM25, pandas |
+| **Data** | Supabase (Postgres, Row Level Security, Auth, Storage) |
 | **Hosting** | Expo Hosting (web), RunPod (API and LLM) |
 
 ## Project structure
@@ -230,7 +259,3 @@ cd coffee_shop_app
 npx expo export -p web
 npx eas-cli deploy --prod
 ```
-
----
-
-
