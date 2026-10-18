@@ -1,0 +1,28 @@
+{"question": "What time do you close on Sundays?", "must_include": [["6 PM", "6 pm", "6pm", "6:00"]]}
+{"question": "Is the almond croissant ok for someone with a nut allergy?", "must_include": [["almond", "nut"]], "must_not_include": ["is safe", "is nut-free", "nut free"]}
+{"question": "How much extra is oat milk?", "must_include": [["0.75", "75 cents", "75¢"]]}
+{"question": "Do you deliver to Brooklyn?", "must_include": [["no", "not", "don't", "do not"]]}
+{"question": "How much does delivery cost?", "must_include": [["2.99"]]}
+{"question": "How much caffeine is in a latte?", "must_include": [["150"]]}
+{"question": "Does the caramel syrup have dairy in it?", "must_include": [["yes", "dairy", "cream", "butter"]]}
+{"question": "Do you have gluten-free pastries?", "must_include": [["no", "not", "don't", "do not"]]}
+{"question": "How many points do I need for a free drink?", "must_include": [["800"]]}
+{"question": "Can I bring my dog inside?", "must_include": [["patio", "outdoor", "service animal"]]}
+{"question": "Is there a discount if I bring my own cup?", "must_include": [["0.25", "25 cents", "25¢"]]}
+{"question": "What's the most expensive coffee beans you sell?", "must_include": [["civet"]]}
+{"question": "When is the latte art class?", "must_include": [["first saturday", "first Saturday"]]}
+{"question": "How long do you hold pickup orders?", "must_include": [["30 minutes", "30 min"]]}
+{"question": "Can I cancel my app order?", "must_include": [["2 minutes", "two minutes"]]}
+{"question": "Do you have a drive-through?", "unanswerable": true}
+{"question": "Do you offer student discounts?", "unanswerable": true}
+{"question": "Who owns the coffee shop?", "unanswerable": true}
+{"question": "Do you offer franchise opportunities?", "unanswerable": true}
+{"question": "What music do you play in the shop?", "unanswerable": true}
+{"question": "Do you serve chai?", "must_include": [["yes", "chai"]]}
+{"question": "Which teas have no caffeine?", "must_include": [["peppermint"], ["lemon grass", "lemongrass"]]}
+{"question": "How much is the Ethiopia pour-over?", "must_include": [["3.00", "$3"]]}
+{"question": "Do you have cold brew?", "must_include": [["yes", "we do", "we have"], ["cold brew"]]}
+{"question": "Do you have a vegan pastry?", "must_include": [["banana bread"]]}
+{"question": "How much is the bacon egg and cheese?", "must_include": [["6.50"]]}
+{"question": "Is the avocado toast gluten free?", "must_include": [["no", "not", "sourdough", "wheat", "gluten"]], "must_not_include": ["is gluten-free", "is gluten free"]}
+{"question": "Do you serve smoothies?", "must_include": [["no", "not", "don't", "do not"]]}

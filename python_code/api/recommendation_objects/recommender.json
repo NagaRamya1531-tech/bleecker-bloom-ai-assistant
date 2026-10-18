@@ -1,0 +1,4899 @@
+{
+ "trained_on": "2019-04-01 to 2019-04-29",
+ "n_baskets": 39192,
+ "menu": {
+  "Espresso": {
+   "dataset_name": "Espresso shot",
+   "dataset_category": "Coffee",
+   "category": "Espresso Drinks",
+   "price": 2.0,
+   "description": "A bold shot of our house Espresso Roast, with notes of dark chocolate and toasted hazelnut.",
+   "ingredients": [
+    "Espresso"
+   ],
+   "similar_to": null,
+   "tags": [
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "contains-caffeine"
+   ]
+  },
+  "Ouro Brasileiro Espresso": {
+   "dataset_name": "Ouro Brasileiro shot",
+   "dataset_category": "Coffee",
+   "category": "Espresso Drinks",
+   "price": 3.0,
+   "description": "A premium single-origin Brazilian espresso shot, sweeter and smoother than our house espresso, with notes of caramel and cocoa.",
+   "ingredients": [
+    "Ouro Brasileiro Espresso"
+   ],
+   "similar_to": null,
+   "tags": [
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "contains-caffeine"
+   ]
+  },
+  "Americano": {
+   "dataset_name": null,
+   "dataset_category": null,
+   "category": "Espresso Drinks",
+   "price": 3.75,
+   "description": "Espresso topped with hot water for a smooth, full-bodied coffee with no milk.",
+   "ingredients": [
+    "Espresso",
+    "Hot Water"
+   ],
+   "similar_to": "Espresso",
+   "tags": [
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "contains-caffeine"
+   ]
+  },
+  "Macchiato": {
+   "dataset_name": null,
+   "dataset_category": null,
+   "category": "Espresso Drinks",
+   "price": 3.5,
+   "description": "A double shot of espresso marked with a dollop of milk foam.",
+   "ingredients": [
+    "Espresso",
+    "Milk Foam"
+   ],
+   "similar_to": "Espresso",
+   "tags": [
+    "vegetarian",
+    "gluten-free",
+    "contains-dairy",
+    "contains-caffeine"
+   ]
+  },
+  "Cortado": {
+   "dataset_name": null,
+   "dataset_category": null,
+   "category": "Espresso Drinks",
+   "price": 4.0,
+   "description": "Equal parts espresso and steamed milk, served in a small glass.",
+   "ingredients": [
+    "Espresso",
+    "Steamed Milk"
+   ],
+   "similar_to": "Cappuccino",
+   "tags": [
+    "vegetarian",
+    "gluten-free",
+    "contains-dairy",
+    "contains-caffeine"
+   ]
+  },
+  "Cappuccino": {
+   "dataset_name": "Cappuccino",
+   "dataset_category": "Coffee",
+   "category": "Espresso Drinks",
+   "price": 4.5,
+   "description": "A rich and creamy cappuccino made with freshly brewed espresso, steamed milk, and a frothy milk cap.",
+   "ingredients": [
+    "Espresso",
+    "Steamed Milk",
+    "Milk Foam"
+   ],
+   "similar_to": null,
+   "tags": [
+    "vegetarian",
+    "gluten-free",
+    "contains-dairy",
+    "contains-caffeine"
+   ]
+  },
+  "Flat White": {
+   "dataset_name": null,
+   "dataset_category": null,
+   "category": "Espresso Drinks",
+   "price": 5.0,
+   "description": "Espresso with steamed milk and a fine layer of microfoam for a velvety, balanced cup.",
+   "ingredients": [
+    "Espresso",
+    "Steamed Milk",
+    "Milk Foam"
+   ],
+   "similar_to": "Latte",
+   "tags": [
+    "vegetarian",
+    "gluten-free",
+    "contains-dairy",
+    "contains-caffeine"
+   ]
+  },
+  "Latte": {
+   "dataset_name": "Latte",
+   "dataset_category": "Coffee",
+   "category": "Espresso Drinks",
+   "price": 4.75,
+   "description": "Smooth and creamy, our latte combines rich espresso with velvety steamed milk.",
+   "ingredients": [
+    "Espresso",
+    "Steamed Milk",
+    "Milk Foam"
+   ],
+   "similar_to": null,
+   "tags": [
+    "vegetarian",
+    "gluten-free",
+    "contains-dairy",
+    "contains-caffeine"
+   ]
+  },
+  "Mocha": {
+   "dataset_name": null,
+   "dataset_category": null,
+   "category": "Espresso Drinks",
+   "price": 5.5,
+   "description": "Espresso and chocolate blended with steamed milk for a rich, chocolatey coffee.",
+   "ingredients": [
+    "Espresso",
+    "Chocolate",
+    "Steamed Milk"
+   ],
+   "similar_to": "Latte",
+   "tags": [
+    "vegetarian",
+    "gluten-free",
+    "contains-dairy",
+    "contains-caffeine"
+   ]
+  },
+  "Honey Oat Latte": {
+   "dataset_name": null,
+   "dataset_category": null,
+   "category": "Espresso Drinks",
+   "price": 5.75,
+   "description": "Our signature latte: espresso with steamed oat milk, local honey, and a dusting of cinnamon.",
+   "ingredients": [
+    "Espresso",
+    "Oat Milk",
+    "Honey",
+    "Cinnamon"
+   ],
+   "similar_to": "Latte",
+   "tags": [
+    "vegetarian",
+    "dairy-free",
+    "nut-free",
+    "contains-caffeine"
+   ]
+  },
+  "Old Time Diner Blend": {
+   "dataset_name": "Our Old Time Diner Blend",
+   "dataset_category": "Coffee",
+   "category": "Brewed Coffee",
+   "price": 2.5,
+   "description": "Our house drip coffee: full-bodied and no-fuss, reminiscent of a classic New York diner cup.",
+   "ingredients": [
+    "Old Time Diner Blend Coffee",
+    "Hot Water"
+   ],
+   "similar_to": null,
+   "tags": [
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "contains-caffeine"
+   ]
+  },
+  "Colombian Drip": {
+   "dataset_name": "Columbian Medium Roast",
+   "dataset_category": "Coffee",
+   "category": "Brewed Coffee",
+   "price": 2.5,
+   "description": "A smooth, balanced medium roast from Huila, Colombia, with notes of red apple, caramel, and cocoa.",
+   "ingredients": [
+    "Colombian Coffee",
+    "Hot Water"
+   ],
+   "similar_to": null,
+   "tags": [
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "contains-caffeine"
+   ]
+  },
+  "Decaf Drip": {
+   "dataset_name": null,
+   "dataset_category": null,
+   "category": "Brewed Coffee",
+   "price": 2.75,
+   "description": "Our Organic Decaf Blend, naturally decaffeinated with the Swiss Water Process and freshly brewed.",
+   "ingredients": [
+    "Organic Decaf Coffee",
+    "Hot Water"
+   ],
+   "similar_to": "Old Time Diner Blend",
+   "tags": [
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "low-caffeine"
+   ]
+  },
+  "Brazilian Organic Drip": {
+   "dataset_name": "Brazilian",
+   "dataset_category": "Coffee",
+   "category": "Brewed Coffee",
+   "price": 3.0,
+   "description": "Our certified organic Brazilian coffee, freshly brewed.",
+   "ingredients": [
+    "Brazilian Organic Coffee",
+    "Hot Water"
+   ],
+   "similar_to": null,
+   "tags": [
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "contains-caffeine"
+   ]
+  },
+  "Ethiopia Pour-Over": {
+   "dataset_name": "Ethiopia",
+   "dataset_category": "Coffee",
+   "category": "Brewed Coffee",
+   "price": 3.0,
+   "description": "A light roast single-origin coffee from Yirgacheffe, brewed by hand.",
+   "ingredients": [
+    "Ethiopia Coffee",
+    "Hot Water"
+   ],
+   "similar_to": null,
+   "tags": [
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "contains-caffeine"
+   ]
+  },
+  "Jamaican Coffee River": {
+   "dataset_name": "Jamaican Coffee River",
+   "dataset_category": "Coffee",
+   "category": "Brewed Coffee",
+   "price": 3.1,
+   "description": "A premium Blue Mountain coffee brewed to order.",
+   "ingredients": [
+    "Jamaican Blue Mountain Coffee",
+    "Hot Water"
+   ],
+   "similar_to": null,
+   "tags": [
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "contains-caffeine"
+   ]
+  },
+  "Cold Brew": {
+   "dataset_name": null,
+   "dataset_category": null,
+   "category": "Cold Coffee",
+   "price": 4.25,
+   "description": "Our Brazilian Organic beans steeped in cold water for 18 hours, for a smooth, chocolatey, low-acid coffee served over ice.",
+   "ingredients": [
+    "Cold Brew Coffee",
+    "Water",
+    "Ice"
+   ],
+   "similar_to": "Brazilian Organic Drip",
+   "tags": [
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "contains-caffeine"
+   ]
+  },
+  "Vanilla Sweet Cream Cold Brew": {
+   "dataset_name": null,
+   "dataset_category": null,
+   "category": "Cold Coffee",
+   "price": 5.25,
+   "description": "Cold brew topped with a float of house-made vanilla sweet cream.",
+   "ingredients": [
+    "Cold Brew Coffee",
+    "Cream",
+    "Milk",
+    "Vanilla Syrup",
+    "Ice"
+   ],
+   "similar_to": "Brazilian Organic Drip",
+   "tags": [
+    "vegetarian",
+    "gluten-free",
+    "nut-free",
+    "contains-dairy",
+    "contains-caffeine"
+   ]
+  },
+  "Iced Latte": {
+   "dataset_name": null,
+   "dataset_category": null,
+   "category": "Cold Coffee",
+   "price": 4.75,
+   "description": "A double shot of espresso with cold milk over ice.",
+   "ingredients": [
+    "Espresso",
+    "Cold Milk",
+    "Ice"
+   ],
+   "similar_to": "Latte",
+   "tags": [
+    "vegetarian",
+    "gluten-free",
+    "contains-dairy",
+    "contains-caffeine"
+   ]
+  },
+  "Iced Americano": {
+   "dataset_name": null,
+   "dataset_category": null,
+   "category": "Cold Coffee",
+   "price": 3.75,
+   "description": "A double shot of espresso with cold water over ice.",
+   "ingredients": [
+    "Espresso",
+    "Cold Water",
+    "Ice"
+   ],
+   "similar_to": "Espresso",
+   "tags": [
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "contains-caffeine"
+   ]
+  },
+  "Iced Mocha": {
+   "dataset_name": null,
+   "dataset_category": null,
+   "category": "Cold Coffee",
+   "price": 5.5,
+   "description": "Espresso, chocolate sauce, and cold milk over ice.",
+   "ingredients": [
+    "Espresso",
+    "Chocolate",
+    "Cold Milk",
+    "Ice"
+   ],
+   "similar_to": "Latte",
+   "tags": [
+    "vegetarian",
+    "gluten-free",
+    "contains-dairy",
+    "contains-caffeine"
+   ]
+  },
+  "Earl Grey": {
+   "dataset_name": "Earl Grey",
+   "dataset_category": "Tea",
+   "category": "Tea & Tea Lattes",
+   "price": 2.5,
+   "description": "A full leaf black tea blended with organic oil of bergamot for a bright citrus aroma.",
+   "ingredients": [
+    "Black Tea",
+    "Bergamot Oil",
+    "Hot Water"
+   ],
+   "similar_to": null,
+   "tags": [
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "contains-caffeine"
+   ]
+  },
+  "English Breakfast": {
+   "dataset_name": "English Breakfast",
+   "dataset_category": "Tea",
+   "category": "Tea & Tea Lattes",
+   "price": 3.0,
+   "description": "A robust blend of Assam and Ceylon black teas, the traditional cup to start your day.",
+   "ingredients": [
+    "Black Tea",
+    "Hot Water"
+   ],
+   "similar_to": null,
+   "tags": [
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "contains-caffeine"
+   ]
+  },
+  "Serenity Green Tea": {
+   "dataset_name": "Serenity Green Tea",
+   "dataset_category": "Tea",
+   "category": "Tea & Tea Lattes",
+   "price": 2.5,
+   "description": "A mountain-grown green tea, grassy, sweet, and gentle.",
+   "ingredients": [
+    "Green Tea",
+    "Hot Water"
+   ],
+   "similar_to": null,
+   "tags": [
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "contains-caffeine"
+   ]
+  },
+  "Peppermint Tea": {
+   "dataset_name": "Peppermint",
+   "dataset_category": "Tea",
+   "category": "Tea & Tea Lattes",
+   "price": 2.5,
+   "description": "Pure peppermint leaves for a cool, refreshing, caffeine-free cup.",
+   "ingredients": [
+    "Peppermint Leaves",
+    "Hot Water"
+   ],
+   "similar_to": null,
+   "tags": [
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "caffeine-free"
+   ]
+  },
+  "Lemon Grass Tea": {
+   "dataset_name": "Lemon Grass",
+   "dataset_category": "Tea",
+   "category": "Tea & Tea Lattes",
+   "price": 2.5,
+   "description": "A bright, citrusy, caffeine-free herbal tea.",
+   "ingredients": [
+    "Lemon Grass",
+    "Hot Water"
+   ],
+   "similar_to": null,
+   "tags": [
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "caffeine-free"
+   ]
+  },
+  "Traditional Blend Chai": {
+   "dataset_name": "Traditional Blend Chai",
+   "dataset_category": "Tea",
+   "category": "Tea & Tea Lattes",
+   "price": 2.5,
+   "description": "A traditional chai of black tea with cardamom, cinnamon, ginger, and cloves.",
+   "ingredients": [
+    "Black Tea",
+    "Cardamom",
+    "Cinnamon",
+    "Ginger",
+    "Cloves",
+    "Hot Water"
+   ],
+   "similar_to": null,
+   "tags": [
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "contains-caffeine"
+   ]
+  },
+  "Morning Sunrise Chai": {
+   "dataset_name": "Morning Sunrise Chai",
+   "dataset_category": "Tea",
+   "category": "Tea & Tea Lattes",
+   "price": 2.5,
+   "description": "A fair trade, organic chai with a warm vanilla and cinnamon finish.",
+   "ingredients": [
+    "Black Tea",
+    "Cinnamon",
+    "Vanilla",
+    "Hot Water"
+   ],
+   "similar_to": null,
+   "tags": [
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "contains-caffeine"
+   ]
+  },
+  "Spicy Eye Opener Chai": {
+   "dataset_name": "Spicy Eye Opener Chai",
+   "dataset_category": "Tea",
+   "category": "Tea & Tea Lattes",
+   "price": 3.1,
+   "description": "Our spiciest chai, with black pepper and extra ginger.",
+   "ingredients": [
+    "Black Tea",
+    "Ginger",
+    "Black Pepper",
+    "Cinnamon",
+    "Hot Water"
+   ],
+   "similar_to": null,
+   "tags": [
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "contains-caffeine"
+   ]
+  },
+  "Chai Latte": {
+   "dataset_name": null,
+   "dataset_category": null,
+   "category": "Tea & Tea Lattes",
+   "price": 4.75,
+   "description": "Our Traditional Blend Chai brewed strong and topped with steamed milk.",
+   "ingredients": [
+    "Black Tea",
+    "Chai Spices",
+    "Steamed Milk"
+   ],
+   "similar_to": "Traditional Blend Chai",
+   "tags": [
+    "vegetarian",
+    "gluten-free",
+    "nut-free",
+    "contains-dairy",
+    "contains-caffeine"
+   ]
+  },
+  "Matcha Latte": {
+   "dataset_name": null,
+   "dataset_category": null,
+   "category": "Tea & Tea Lattes",
+   "price": 5.5,
+   "description": "Ceremonial-grade Japanese matcha whisked with steamed milk.",
+   "ingredients": [
+    "Matcha",
+    "Steamed Milk"
+   ],
+   "similar_to": "Serenity Green Tea",
+   "tags": [
+    "vegetarian",
+    "gluten-free",
+    "nut-free",
+    "contains-dairy",
+    "contains-caffeine"
+   ]
+  },
+  "London Fog": {
+   "dataset_name": null,
+   "dataset_category": null,
+   "category": "Tea & Tea Lattes",
+   "price": 4.75,
+   "description": "Earl Grey tea with steamed milk and a touch of vanilla.",
+   "ingredients": [
+    "Black Tea",
+    "Bergamot Oil",
+    "Steamed Milk",
+    "Vanilla Syrup"
+   ],
+   "similar_to": "Earl Grey",
+   "tags": [
+    "vegetarian",
+    "gluten-free",
+    "nut-free",
+    "contains-dairy",
+    "contains-caffeine"
+   ]
+  },
+  "Dark Hot Chocolate": {
+   "dataset_name": "Dark chocolate",
+   "dataset_category": "Drinking Chocolate",
+   "category": "Hot Chocolate & Steamers",
+   "price": 5.0,
+   "description": "Our signature hot chocolate, made by melting 70% dark cocoa into steamed milk.",
+   "ingredients": [
+    "Cocoa Powder",
+    "Sugar",
+    "Milk"
+   ],
+   "similar_to": null,
+   "tags": [
+    "vegetarian",
+    "gluten-free",
+    "nut-free",
+    "contains-dairy",
+    "low-caffeine"
+   ]
+  },
+  "Organic Hot Chocolate": {
+   "dataset_name": "Sustainably Grown Organic",
+   "dataset_category": "Drinking Chocolate",
+   "category": "Hot Chocolate & Steamers",
+   "price": 4.75,
+   "description": "Made with certified organic drinking chocolate and steamed milk.",
+   "ingredients": [
+    "Organic Cocoa",
+    "Sugar",
+    "Milk"
+   ],
+   "similar_to": null,
+   "tags": [
+    "vegetarian",
+    "gluten-free",
+    "nut-free",
+    "contains-dairy",
+    "low-caffeine"
+   ]
+  },
+  "Vanilla Steamer": {
+   "dataset_name": null,
+   "dataset_category": null,
+   "category": "Hot Chocolate & Steamers",
+   "price": 3.75,
+   "description": "Steamed milk with vanilla syrup.",
+   "ingredients": [
+    "Steamed Milk",
+    "Vanilla Syrup"
+   ],
+   "similar_to": "Organic Hot Chocolate",
+   "tags": [
+    "vegetarian",
+    "gluten-free",
+    "nut-free",
+    "contains-dairy",
+    "caffeine-free"
+   ]
+  },
+  "Croissant": {
+   "dataset_name": "Croissant",
+   "dataset_category": "Bakery",
+   "category": "Bakery",
+   "price": 3.25,
+   "description": "Our classic all-butter croissant, flaky and golden.",
+   "ingredients": [
+    "Flour",
+    "Butter",
+    "Yeast",
+    "Sugar",
+    "Salt"
+   ],
+   "similar_to": null,
+   "tags": [
+    "vegetarian",
+    "contains-gluten",
+    "contains-dairy",
+    "nut-free-recipe",
+    "caffeine-free"
+   ]
+  },
+  "Chocolate Croissant": {
+   "dataset_name": "Chocolate Croissant",
+   "dataset_category": "Bakery",
+   "category": "Bakery",
+   "price": 3.75,
+   "description": "Flaky and buttery, filled with rich dark chocolate.",
+   "ingredients": [
+    "Flour",
+    "Butter",
+    "Chocolate",
+    "Yeast",
+    "Sugar",
+    "Salt"
+   ],
+   "similar_to": null,
+   "tags": [
+    "vegetarian",
+    "contains-gluten",
+    "contains-dairy",
+    "nut-free-recipe",
+    "caffeine-free"
+   ]
+  },
+  "Almond Croissant": {
+   "dataset_name": "Almond Croissant",
+   "dataset_category": "Bakery",
+   "category": "Bakery",
+   "price": 4.0,
+   "description": "A twice-baked croissant filled with almond cream and topped with slivered almonds.",
+   "ingredients": [
+    "Flour",
+    "Butter",
+    "Almond Cream",
+    "Sugar",
+    "Almonds",
+    "Yeast"
+   ],
+   "similar_to": null,
+   "tags": [
+    "vegetarian",
+    "contains-gluten",
+    "contains-dairy",
+    "contains-nuts",
+    "caffeine-free"
+   ]
+  },
+  "Jumbo Savory Scone": {
+   "dataset_name": "Jumbo Savory Scone",
+   "dataset_category": "Bakery",
+   "category": "Bakery",
+   "price": 3.25,
+   "description": "A big, flaky scone filled with aged cheddar and fresh herbs.",
+   "ingredients": [
+    "Flour",
+    "Butter",
+    "Cheese",
+    "Herbs",
+    "Baking Powder",
+    "Salt"
+   ],
+   "similar_to": null,
+   "tags": [
+    "vegetarian",
+    "savory",
+    "contains-gluten",
+    "contains-dairy",
+    "nut-free-recipe",
+    "caffeine-free"
+   ]
+  },
+  "Cranberry Scone": {
+   "dataset_name": "Cranberry Scone",
+   "dataset_category": "Bakery",
+   "category": "Bakery",
+   "price": 3.5,
+   "description": "Sweet and tart, with dried cranberries and an orange-zest glaze.",
+   "ingredients": [
+    "Flour",
+    "Butter",
+    "Cranberries",
+    "Sugar",
+    "Baking Powder",
+    "Eggs"
+   ],
+   "similar_to": null,
+   "tags": [
+    "vegetarian",
+    "contains-gluten",
+    "contains-dairy",
+    "nut-free-recipe",
+    "caffeine-free"
+   ]
+  },
+  "Oatmeal Scone": {
+   "dataset_name": "Oatmeal Scone",
+   "dataset_category": "Bakery",
+   "category": "Bakery",
+   "price": 3.25,
+   "description": "Wholesome rolled oats and a hint of brown sugar in a satisfying, less-sweet scone.",
+   "ingredients": [
+    "Flour",
+    "Oats",
+    "Butter",
+    "Sugar",
+    "Baking Powder",
+    "Eggs"
+   ],
+   "similar_to": null,
+   "tags": [
+    "vegetarian",
+    "contains-gluten",
+    "contains-dairy",
+    "nut-free-recipe",
+    "caffeine-free"
+   ]
+  },
+  "Ginger Scone": {
+   "dataset_name": "Ginger Scone",
+   "dataset_category": "Bakery",
+   "category": "Bakery",
+   "price": 3.5,
+   "description": "Soft and fragrant, with crystallized ginger for a warm, spicy kick.",
+   "ingredients": [
+    "Flour",
+    "Butter",
+    "Ginger",
+    "Sugar",
+    "Baking Powder",
+    "Eggs"
+   ],
+   "similar_to": null,
+   "tags": [
+    "vegetarian",
+    "contains-gluten",
+    "contains-dairy",
+    "nut-free-recipe",
+    "caffeine-free"
+   ]
+  },
+  "Scottish Cream Scone": {
+   "dataset_name": "Scottish Cream Scone",
+   "dataset_category": "Bakery",
+   "category": "Bakery",
+   "price": 4.5,
+   "description": "A tender, rich scone made with fresh cream, served with strawberry jam.",
+   "ingredients": [
+    "Flour",
+    "Cream",
+    "Butter",
+    "Sugar",
+    "Baking Powder",
+    "Eggs"
+   ],
+   "similar_to": null,
+   "tags": [
+    "vegetarian",
+    "contains-gluten",
+    "contains-dairy",
+    "nut-free-recipe",
+    "caffeine-free"
+   ]
+  },
+  "Chocolate Chip Biscotti": {
+   "dataset_name": "Chocolate Chip Biscotti",
+   "dataset_category": "Bakery",
+   "category": "Bakery",
+   "price": 2.5,
+   "description": "Crunchy twice-baked cookies with chocolate chips and almonds, made for dipping.",
+   "ingredients": [
+    "Flour",
+    "Sugar",
+    "Chocolate Chips",
+    "Eggs",
+    "Almonds",
+    "Baking Powder"
+   ],
+   "similar_to": null,
+   "tags": [
+    "vegetarian",
+    "contains-gluten",
+    "contains-nuts",
+    "caffeine-free"
+   ]
+  },
+  "Hazelnut Biscotti": {
+   "dataset_name": "Hazelnut Biscotti",
+   "dataset_category": "Bakery",
+   "category": "Bakery",
+   "price": 2.75,
+   "description": "Crunchy biscotti packed with roasted hazelnuts.",
+   "ingredients": [
+    "Flour",
+    "Sugar",
+    "Hazelnuts",
+    "Eggs",
+    "Baking Powder"
+   ],
+   "similar_to": null,
+   "tags": [
+    "vegetarian",
+    "dairy-free",
+    "contains-gluten",
+    "contains-nuts",
+    "caffeine-free"
+   ]
+  },
+  "Ginger Biscotti": {
+   "dataset_name": "Ginger Biscotti",
+   "dataset_category": "Bakery",
+   "category": "Bakery",
+   "price": 2.5,
+   "description": "Spicy ginger biscotti with a warm finish, our only biscotti made without nuts.",
+   "ingredients": [
+    "Flour",
+    "Sugar",
+    "Ginger",
+    "Eggs",
+    "Baking Powder"
+   ],
+   "similar_to": null,
+   "tags": [
+    "vegetarian",
+    "dairy-free",
+    "contains-gluten",
+    "nut-free-recipe",
+    "caffeine-free"
+   ]
+  },
+  "Blueberry Muffin": {
+   "dataset_name": null,
+   "dataset_category": null,
+   "category": "Bakery",
+   "price": 3.5,
+   "description": "A tall, tender muffin bursting with blueberries and topped with crunchy sugar.",
+   "ingredients": [
+    "Flour",
+    "Blueberries",
+    "Sugar",
+    "Eggs",
+    "Butter",
+    "Milk"
+   ],
+   "similar_to": "Cranberry Scone",
+   "tags": [
+    "vegetarian",
+    "contains-gluten",
+    "contains-dairy",
+    "nut-free-recipe",
+    "caffeine-free"
+   ]
+  },
+  "Banana Bread": {
+   "dataset_name": null,
+   "dataset_category": null,
+   "category": "Bakery",
+   "price": 3.75,
+   "description": "A moist, cinnamon-spiced slice of banana bread, made vegan with coconut oil and flaxseed.",
+   "ingredients": [
+    "Flour",
+    "Bananas",
+    "Sugar",
+    "Coconut Oil",
+    "Flaxseed",
+    "Cinnamon"
+   ],
+   "similar_to": "Oatmeal Scone",
+   "tags": [
+    "vegan",
+    "dairy-free",
+    "contains-gluten",
+    "nut-free-recipe",
+    "caffeine-free"
+   ]
+  },
+  "Cinnamon Roll": {
+   "dataset_name": null,
+   "dataset_category": null,
+   "category": "Bakery",
+   "price": 4.25,
+   "description": "A soft, buttery roll swirled with cinnamon brown sugar and topped with cream cheese icing.",
+   "ingredients": [
+    "Flour",
+    "Butter",
+    "Cinnamon",
+    "Brown Sugar",
+    "Cream Cheese",
+    "Yeast",
+    "Eggs"
+   ],
+   "similar_to": "Chocolate Croissant",
+   "tags": [
+    "vegetarian",
+    "contains-gluten",
+    "contains-dairy",
+    "nut-free-recipe",
+    "caffeine-free"
+   ]
+  },
+  "Bacon, Egg & Cheese": {
+   "dataset_name": null,
+   "dataset_category": null,
+   "category": "Breakfast & Lunch",
+   "price": 6.5,
+   "description": "The New York classic: two fried eggs, crispy bacon, and American cheese on a toasted kaiser roll.",
+   "ingredients": [
+    "Kaiser Roll",
+    "Eggs",
+    "Bacon",
+    "American Cheese",
+    "Butter"
+   ],
+   "similar_to": "Jumbo Savory Scone",
+   "tags": [
+    "contains-gluten",
+    "contains-dairy",
+    "contains-eggs",
+    "nut-free-recipe",
+    "caffeine-free"
+   ]
+  },
+  "Egg & Cheese": {
+   "dataset_name": null,
+   "dataset_category": null,
+   "category": "Breakfast & Lunch",
+   "price": 5.5,
+   "description": "Two fried eggs and American cheese on a toasted kaiser roll.",
+   "ingredients": [
+    "Kaiser Roll",
+    "Eggs",
+    "American Cheese",
+    "Butter"
+   ],
+   "similar_to": "Jumbo Savory Scone",
+   "tags": [
+    "vegetarian",
+    "contains-gluten",
+    "contains-dairy",
+    "contains-eggs",
+    "nut-free-recipe",
+    "caffeine-free"
+   ]
+  },
+  "Everything Bagel with Cream Cheese": {
+   "dataset_name": null,
+   "dataset_category": null,
+   "category": "Breakfast & Lunch",
+   "price": 4.25,
+   "description": "A fresh local everything bagel, toasted and spread with plain cream cheese.",
+   "ingredients": [
+    "Everything Bagel",
+    "Cream Cheese",
+    "Sesame Seeds"
+   ],
+   "similar_to": "Croissant",
+   "tags": [
+    "vegetarian",
+    "contains-gluten",
+    "contains-dairy",
+    "nut-free-recipe",
+    "caffeine-free"
+   ]
+  },
+  "Avocado Toast": {
+   "dataset_name": null,
+   "dataset_category": null,
+   "category": "Breakfast & Lunch",
+   "price": 9.5,
+   "description": "Smashed avocado on toasted sourdough with lemon, chili flakes, and flaky sea salt.",
+   "ingredients": [
+    "Sourdough Bread",
+    "Avocado",
+    "Lemon",
+    "Chili Flakes",
+    "Sea Salt",
+    "Olive Oil"
+   ],
+   "similar_to": "Jumbo Savory Scone",
+   "tags": [
+    "vegan",
+    "dairy-free",
+    "contains-gluten",
+    "nut-free-recipe",
+    "caffeine-free"
+   ]
+  },
+  "Greek Yogurt Parfait": {
+   "dataset_name": null,
+   "dataset_category": null,
+   "category": "Breakfast & Lunch",
+   "price": 6.0,
+   "description": "Greek yogurt layered with house-made nut-free granola, fresh berries, and honey.",
+   "ingredients": [
+    "Greek Yogurt",
+    "Granola",
+    "Berries",
+    "Honey"
+   ],
+   "similar_to": "Oatmeal Scone",
+   "tags": [
+    "vegetarian",
+    "gluten-free",
+    "nut-free",
+    "contains-dairy",
+    "caffeine-free"
+   ]
+  },
+  "Steel-Cut Oatmeal": {
+   "dataset_name": null,
+   "dataset_category": null,
+   "category": "Breakfast & Lunch",
+   "price": 5.25,
+   "description": "Hearty gluten-free steel-cut oats with brown sugar and fresh berries.",
+   "ingredients": [
+    "Steel-Cut Oats",
+    "Brown Sugar",
+    "Berries"
+   ],
+   "similar_to": "Oatmeal Scone",
+   "tags": [
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "caffeine-free"
+   ]
+  },
+  "Turkey & Cheddar Sandwich": {
+   "dataset_name": null,
+   "dataset_category": null,
+   "category": "Breakfast & Lunch",
+   "price": 11.0,
+   "description": "Roast turkey, aged cheddar, lettuce, tomato, and Dijon mustard on sourdough.",
+   "ingredients": [
+    "Sourdough Bread",
+    "Turkey",
+    "Cheddar",
+    "Lettuce",
+    "Tomato",
+    "Dijon Mustard"
+   ],
+   "similar_to": "Jumbo Savory Scone",
+   "tags": [
+    "contains-gluten",
+    "contains-dairy",
+    "nut-free-recipe",
+    "caffeine-free"
+   ]
+  },
+  "Extra Espresso Shot": {
+   "dataset_name": null,
+   "dataset_category": null,
+   "category": "Add-ons",
+   "price": 1.0,
+   "description": "Add an extra shot of espresso to any drink.",
+   "ingredients": [
+    "Espresso"
+   ],
+   "similar_to": "Espresso",
+   "tags": [
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "contains-caffeine"
+   ]
+  },
+  "Oat Milk": {
+   "dataset_name": null,
+   "dataset_category": null,
+   "category": "Add-ons",
+   "price": 0.75,
+   "description": "Swap in oat milk for any drink.",
+   "ingredients": [
+    "Oat Milk"
+   ],
+   "similar_to": "Sugar-Free Vanilla Syrup",
+   "tags": [
+    "vegan",
+    "dairy-free",
+    "nut-free",
+    "caffeine-free"
+   ]
+  },
+  "Almond Milk": {
+   "dataset_name": null,
+   "dataset_category": null,
+   "category": "Add-ons",
+   "price": 0.75,
+   "description": "Swap in almond milk for any drink.",
+   "ingredients": [
+    "Almond Milk"
+   ],
+   "similar_to": "Hazelnut Syrup",
+   "tags": [
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "contains-nuts",
+    "caffeine-free"
+   ]
+  },
+  "Soy Milk": {
+   "dataset_name": null,
+   "dataset_category": null,
+   "category": "Add-ons",
+   "price": 0.75,
+   "description": "Swap in soy milk for any drink.",
+   "ingredients": [
+    "Soy Milk"
+   ],
+   "similar_to": "Sugar-Free Vanilla Syrup",
+   "tags": [
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "caffeine-free"
+   ]
+  },
+  "Caramel Syrup": {
+   "dataset_name": "Carmel syrup",
+   "dataset_category": "Flavours",
+   "category": "Add-ons",
+   "price": 1.5,
+   "description": "Sweet, buttery caramel syrup made with real cream and butter.",
+   "ingredients": [
+    "Sugar",
+    "Water",
+    "Cream",
+    "Butter",
+    "Vanilla Extract"
+   ],
+   "similar_to": null,
+   "tags": [
+    "vegetarian",
+    "gluten-free",
+    "nut-free",
+    "contains-dairy",
+    "caffeine-free"
+   ]
+  },
+  "Chocolate Syrup": {
+   "dataset_name": "Chocolate syrup",
+   "dataset_category": "Flavours",
+   "category": "Add-ons",
+   "price": 1.5,
+   "description": "Rich, velvety chocolate syrup for any drink.",
+   "ingredients": [
+    "Sugar",
+    "Cocoa Powder",
+    "Water",
+    "Vanilla Extract"
+   ],
+   "similar_to": null,
+   "tags": [
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "caffeine-free"
+   ]
+  },
+  "Hazelnut Syrup": {
+   "dataset_name": "Hazelnut syrup",
+   "dataset_category": "Flavours",
+   "category": "Add-ons",
+   "price": 1.5,
+   "description": "Smooth, nutty sweetness, our most popular latte add-on.",
+   "ingredients": [
+    "Sugar",
+    "Water",
+    "Hazelnut Extract",
+    "Vanilla Extract"
+   ],
+   "similar_to": null,
+   "tags": [
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "contains-nuts",
+    "caffeine-free"
+   ]
+  },
+  "Sugar-Free Vanilla Syrup": {
+   "dataset_name": "Sugar Free Vanilla syrup",
+   "dataset_category": "Flavours",
+   "category": "Add-ons",
+   "price": 1.5,
+   "description": "Classic vanilla flavor with zero sugar, sweetened with sucralose.",
+   "ingredients": [
+    "Water",
+    "Natural Flavors",
+    "Sucralose"
+   ],
+   "similar_to": null,
+   "tags": [
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "sugar-free",
+    "caffeine-free"
+   ]
+  }
+ },
+ "popularity": {
+  "Ethiopia Pour-Over": 2866,
+  "Brazilian Organic Drip": 2857,
+  "Old Time Diner Blend": 2845,
+  "Colombian Drip": 2821,
+  "Jamaican Coffee River": 2739,
+  "Organic Hot Chocolate": 1946,
+  "Morning Sunrise Chai": 1944,
+  "Latte": 1942,
+  "Earl Grey": 1926,
+  "Peppermint Tea": 1897,
+  "Traditional Blend Chai": 1890,
+  "Dark Hot Chocolate": 1888,
+  "Cappuccino": 1887,
+  "Spicy Eye Opener Chai": 1882,
+  "Serenity Green Tea": 1882,
+  "English Breakfast": 1863,
+  "Lemon Grass Tea": 1840,
+  "Chocolate Croissant": 948,
+  "Espresso": 924,
+  "Ginger Scone": 788,
+  "Ouro Brasileiro Espresso": 747,
+  "Cranberry Scone": 679,
+  "Jumbo Savory Scone": 677,
+  "Hazelnut Biscotti": 670,
+  "Croissant": 644,
+  "Almond Croissant": 641,
+  "Scottish Cream Scone": 638,
+  "Chocolate Chip Biscotti": 622,
+  "Oatmeal Scone": 611,
+  "Ginger Biscotti": 606,
+  "Sugar-Free Vanilla Syrup": 605,
+  "Chocolate Syrup": 569,
+  "Caramel Syrup": 561,
+  "Hazelnut Syrup": 512
+ },
+ "popularity_by_daypart": {
+  "afternoon": {
+   "Colombian Drip": 862,
+   "Old Time Diner Blend": 847,
+   "Ethiopia Pour-Over": 823,
+   "Jamaican Coffee River": 804,
+   "Brazilian Organic Drip": 799,
+   "Organic Hot Chocolate": 568,
+   "Traditional Blend Chai": 565,
+   "Spicy Eye Opener Chai": 559,
+   "Dark Hot Chocolate": 558,
+   "Latte": 553,
+   "Lemon Grass Tea": 551,
+   "Earl Grey": 550,
+   "Morning Sunrise Chai": 550,
+   "Cappuccino": 542,
+   "Serenity Green Tea": 523,
+   "English Breakfast": 516,
+   "Peppermint Tea": 499,
+   "Espresso": 277,
+   "Ouro Brasileiro Espresso": 196,
+   "Chocolate Croissant": 195,
+   "Jumbo Savory Scone": 191,
+   "Oatmeal Scone": 185,
+   "Cranberry Scone": 181,
+   "Hazelnut Biscotti": 181,
+   "Scottish Cream Scone": 179,
+   "Ginger Scone": 169,
+   "Almond Croissant": 168,
+   "Ginger Biscotti": 167,
+   "Croissant": 162,
+   "Chocolate Chip Biscotti": 144,
+   "Sugar-Free Vanilla Syrup": 118,
+   "Caramel Syrup": 117,
+   "Chocolate Syrup": 99,
+   "Hazelnut Syrup": 93
+  },
+  "midday": {
+   "Ethiopia Pour-Over": 739,
+   "Brazilian Organic Drip": 739,
+   "Colombian Drip": 726,
+   "Old Time Diner Blend": 711,
+   "Jamaican Coffee River": 666,
+   "English Breakfast": 508,
+   "Latte": 494,
+   "Dark Hot Chocolate": 491,
+   "Morning Sunrise Chai": 488,
+   "Organic Hot Chocolate": 487,
+   "Serenity Green Tea": 486,
+   "Earl Grey": 477,
+   "Peppermint Tea": 475,
+   "Spicy Eye Opener Chai": 473,
+   "Cappuccino": 470,
+   "Lemon Grass Tea": 466,
+   "Traditional Blend Chai": 450,
+   "Espresso": 232,
+   "Ginger Scone": 212,
+   "Chocolate Croissant": 190,
+   "Ouro Brasileiro Espresso": 189,
+   "Jumbo Savory Scone": 165,
+   "Almond Croissant": 161,
+   "Chocolate Chip Biscotti": 157,
+   "Hazelnut Biscotti": 157,
+   "Cranberry Scone": 148,
+   "Scottish Cream Scone": 146,
+   "Croissant": 144,
+   "Ginger Biscotti": 141,
+   "Oatmeal Scone": 136,
+   "Sugar-Free Vanilla Syrup": 113,
+   "Chocolate Syrup": 94,
+   "Caramel Syrup": 93,
+   "Hazelnut Syrup": 81
+  },
+  "morning": {
+   "Brazilian Organic Drip": 1319,
+   "Ethiopia Pour-Over": 1304,
+   "Old Time Diner Blend": 1287,
+   "Jamaican Coffee River": 1269,
+   "Colombian Drip": 1233,
+   "Peppermint Tea": 923,
+   "Morning Sunrise Chai": 906,
+   "Earl Grey": 899,
+   "Latte": 895,
+   "Organic Hot Chocolate": 891,
+   "Traditional Blend Chai": 875,
+   "Cappuccino": 875,
+   "Serenity Green Tea": 873,
+   "Spicy Eye Opener Chai": 850,
+   "Dark Hot Chocolate": 839,
+   "English Breakfast": 839,
+   "Lemon Grass Tea": 823,
+   "Chocolate Croissant": 563,
+   "Espresso": 415,
+   "Ginger Scone": 407,
+   "Chocolate Syrup": 376,
+   "Sugar-Free Vanilla Syrup": 374,
+   "Ouro Brasileiro Espresso": 362,
+   "Caramel Syrup": 351,
+   "Cranberry Scone": 350,
+   "Hazelnut Syrup": 338,
+   "Croissant": 338,
+   "Hazelnut Biscotti": 332,
+   "Jumbo Savory Scone": 321,
+   "Chocolate Chip Biscotti": 321,
+   "Scottish Cream Scone": 313,
+   "Almond Croissant": 312,
+   "Ginger Biscotti": 298,
+   "Oatmeal Scone": 290
+  }
+ },
+ "co_occurrence": {
+  "Cranberry Scone": [
+   {
+    "item": "Chocolate Syrup",
+    "pair_count": 14,
+    "confidence": 0.0206,
+    "lift": 1.4202
+   },
+   {
+    "item": "Espresso",
+    "pair_count": 20,
+    "confidence": 0.0295,
+    "lift": 1.2494
+   },
+   {
+    "item": "Hazelnut Syrup",
+    "pair_count": 11,
+    "confidence": 0.0162,
+    "lift": 1.2401
+   },
+   {
+    "item": "Caramel Syrup",
+    "pair_count": 12,
+    "confidence": 0.0177,
+    "lift": 1.2347
+   },
+   {
+    "item": "Organic Hot Chocolate",
+    "pair_count": 39,
+    "confidence": 0.0574,
+    "lift": 1.1568
+   },
+   {
+    "item": "Spicy Eye Opener Chai",
+    "pair_count": 36,
+    "confidence": 0.053,
+    "lift": 1.1041
+   },
+   {
+    "item": "Ouro Brasileiro Espresso",
+    "pair_count": 14,
+    "confidence": 0.0206,
+    "lift": 1.0818
+   },
+   {
+    "item": "Cappuccino",
+    "pair_count": 34,
+    "confidence": 0.0501,
+    "lift": 1.04
+   },
+   {
+    "item": "Dark Hot Chocolate",
+    "pair_count": 34,
+    "confidence": 0.0501,
+    "lift": 1.0395
+   },
+   {
+    "item": "English Breakfast",
+    "pair_count": 33,
+    "confidence": 0.0486,
+    "lift": 1.0224
+   },
+   {
+    "item": "Colombian Drip",
+    "pair_count": 48,
+    "confidence": 0.0707,
+    "lift": 0.9821
+   },
+   {
+    "item": "Peppermint Tea",
+    "pair_count": 32,
+    "confidence": 0.0471,
+    "lift": 0.9737
+   },
+   {
+    "item": "Brazilian Organic Drip",
+    "pair_count": 47,
+    "confidence": 0.0692,
+    "lift": 0.9495
+   },
+   {
+    "item": "Ethiopia Pour-Over",
+    "pair_count": 46,
+    "confidence": 0.0677,
+    "lift": 0.9264
+   },
+   {
+    "item": "Old Time Diner Blend",
+    "pair_count": 45,
+    "confidence": 0.0663,
+    "lift": 0.913
+   },
+   {
+    "item": "Earl Grey",
+    "pair_count": 30,
+    "confidence": 0.0442,
+    "lift": 0.8991
+   },
+   {
+    "item": "Latte",
+    "pair_count": 30,
+    "confidence": 0.0442,
+    "lift": 0.8917
+   },
+   {
+    "item": "Serenity Green Tea",
+    "pair_count": 28,
+    "confidence": 0.0412,
+    "lift": 0.8587
+   },
+   {
+    "item": "Sugar-Free Vanilla Syrup",
+    "pair_count": 9,
+    "confidence": 0.0133,
+    "lift": 0.8586
+   },
+   {
+    "item": "Traditional Blend Chai",
+    "pair_count": 28,
+    "confidence": 0.0412,
+    "lift": 0.8551
+   },
+   {
+    "item": "Jamaican Coffee River",
+    "pair_count": 40,
+    "confidence": 0.0589,
+    "lift": 0.8429
+   },
+   {
+    "item": "Lemon Grass Tea",
+    "pair_count": 25,
+    "confidence": 0.0368,
+    "lift": 0.7842
+   },
+   {
+    "item": "Morning Sunrise Chai",
+    "pair_count": 25,
+    "confidence": 0.0368,
+    "lift": 0.7423
+   },
+   {
+    "item": "Ginger Scone",
+    "pair_count": 6,
+    "confidence": 0.0088,
+    "lift": 0.4395
+   }
+  ],
+  "Peppermint Tea": [
+   {
+    "item": "Chocolate Chip Biscotti",
+    "pair_count": 38,
+    "confidence": 0.02,
+    "lift": 1.2622
+   },
+   {
+    "item": "Hazelnut Biscotti",
+    "pair_count": 37,
+    "confidence": 0.0195,
+    "lift": 1.1409
+   },
+   {
+    "item": "Ginger Biscotti",
+    "pair_count": 30,
+    "confidence": 0.0158,
+    "lift": 1.0228
+   },
+   {
+    "item": "Croissant",
+    "pair_count": 31,
+    "confidence": 0.0163,
+    "lift": 0.9945
+   },
+   {
+    "item": "Cranberry Scone",
+    "pair_count": 32,
+    "confidence": 0.0169,
+    "lift": 0.9737
+   },
+   {
+    "item": "Scottish Cream Scone",
+    "pair_count": 30,
+    "confidence": 0.0158,
+    "lift": 0.9715
+   },
+   {
+    "item": "Almond Croissant",
+    "pair_count": 30,
+    "confidence": 0.0158,
+    "lift": 0.9669
+   },
+   {
+    "item": "Chocolate Croissant",
+    "pair_count": 42,
+    "confidence": 0.0221,
+    "lift": 0.9153
+   },
+   {
+    "item": "Jumbo Savory Scone",
+    "pair_count": 28,
+    "confidence": 0.0148,
+    "lift": 0.8545
+   },
+   {
+    "item": "Oatmeal Scone",
+    "pair_count": 25,
+    "confidence": 0.0132,
+    "lift": 0.8453
+   },
+   {
+    "item": "Ginger Scone",
+    "pair_count": 28,
+    "confidence": 0.0148,
+    "lift": 0.7341
+   }
+  ],
+  "Spicy Eye Opener Chai": [
+   {
+    "item": "Ginger Biscotti",
+    "pair_count": 35,
+    "confidence": 0.0186,
+    "lift": 1.2027
+   },
+   {
+    "item": "Scottish Cream Scone",
+    "pair_count": 35,
+    "confidence": 0.0186,
+    "lift": 1.1424
+   },
+   {
+    "item": "Cranberry Scone",
+    "pair_count": 36,
+    "confidence": 0.0191,
+    "lift": 1.1041
+   },
+   {
+    "item": "Oatmeal Scone",
+    "pair_count": 32,
+    "confidence": 0.017,
+    "lift": 1.0907
+   },
+   {
+    "item": "Hazelnut Biscotti",
+    "pair_count": 32,
+    "confidence": 0.017,
+    "lift": 0.9946
+   },
+   {
+    "item": "Chocolate Chip Biscotti",
+    "pair_count": 29,
+    "confidence": 0.0154,
+    "lift": 0.9709
+   },
+   {
+    "item": "Almond Croissant",
+    "pair_count": 28,
+    "confidence": 0.0149,
+    "lift": 0.9097
+   },
+   {
+    "item": "Croissant",
+    "pair_count": 25,
+    "confidence": 0.0133,
+    "lift": 0.8084
+   },
+   {
+    "item": "Chocolate Croissant",
+    "pair_count": 35,
+    "confidence": 0.0186,
+    "lift": 0.7688
+   },
+   {
+    "item": "Jumbo Savory Scone",
+    "pair_count": 21,
+    "confidence": 0.0112,
+    "lift": 0.646
+   },
+   {
+    "item": "Ginger Scone",
+    "pair_count": 19,
+    "confidence": 0.0101,
+    "lift": 0.5021
+   }
+  ],
+  "Earl Grey": [
+   {
+    "item": "Croissant",
+    "pair_count": 46,
+    "confidence": 0.0239,
+    "lift": 1.4535
+   },
+   {
+    "item": "Hazelnut Biscotti",
+    "pair_count": 39,
+    "confidence": 0.0202,
+    "lift": 1.1845
+   },
+   {
+    "item": "Jumbo Savory Scone",
+    "pair_count": 38,
+    "confidence": 0.0197,
+    "lift": 1.1422
+   },
+   {
+    "item": "Scottish Cream Scone",
+    "pair_count": 34,
+    "confidence": 0.0177,
+    "lift": 1.0844
+   },
+   {
+    "item": "Chocolate Chip Biscotti",
+    "pair_count": 30,
+    "confidence": 0.0156,
+    "lift": 0.9815
+   },
+   {
+    "item": "Ginger Biscotti",
+    "pair_count": 29,
+    "confidence": 0.0151,
+    "lift": 0.9738
+   },
+   {
+    "item": "Oatmeal Scone",
+    "pair_count": 27,
+    "confidence": 0.014,
+    "lift": 0.8992
+   },
+   {
+    "item": "Cranberry Scone",
+    "pair_count": 30,
+    "confidence": 0.0156,
+    "lift": 0.8991
+   },
+   {
+    "item": "Almond Croissant",
+    "pair_count": 25,
+    "confidence": 0.013,
+    "lift": 0.7936
+   },
+   {
+    "item": "Chocolate Croissant",
+    "pair_count": 36,
+    "confidence": 0.0187,
+    "lift": 0.7727
+   },
+   {
+    "item": "Ginger Scone",
+    "pair_count": 25,
+    "confidence": 0.013,
+    "lift": 0.6456
+   }
+  ],
+  "Hazelnut Biscotti": [
+   {
+    "item": "Espresso",
+    "pair_count": 20,
+    "confidence": 0.0299,
+    "lift": 1.2661
+   },
+   {
+    "item": "Serenity Green Tea",
+    "pair_count": 39,
+    "confidence": 0.0582,
+    "lift": 1.2122
+   },
+   {
+    "item": "Morning Sunrise Chai",
+    "pair_count": 40,
+    "confidence": 0.0597,
+    "lift": 1.2036
+   },
+   {
+    "item": "Earl Grey",
+    "pair_count": 39,
+    "confidence": 0.0582,
+    "lift": 1.1845
+   },
+   {
+    "item": "Peppermint Tea",
+    "pair_count": 37,
+    "confidence": 0.0552,
+    "lift": 1.1409
+   },
+   {
+    "item": "Ouro Brasileiro Espresso",
+    "pair_count": 14,
+    "confidence": 0.0209,
+    "lift": 1.0963
+   },
+   {
+    "item": "English Breakfast",
+    "pair_count": 34,
+    "confidence": 0.0507,
+    "lift": 1.0676
+   },
+   {
+    "item": "Sugar-Free Vanilla Syrup",
+    "pair_count": 11,
+    "confidence": 0.0164,
+    "lift": 1.0636
+   },
+   {
+    "item": "Chocolate Syrup",
+    "pair_count": 10,
+    "confidence": 0.0149,
+    "lift": 1.028
+   },
+   {
+    "item": "Spicy Eye Opener Chai",
+    "pair_count": 32,
+    "confidence": 0.0478,
+    "lift": 0.9946
+   },
+   {
+    "item": "Jamaican Coffee River",
+    "pair_count": 46,
+    "confidence": 0.0687,
+    "lift": 0.9824
+   },
+   {
+    "item": "Ethiopia Pour-Over",
+    "pair_count": 48,
+    "confidence": 0.0716,
+    "lift": 0.9797
+   },
+   {
+    "item": "Caramel Syrup",
+    "pair_count": 9,
+    "confidence": 0.0134,
+    "lift": 0.9384
+   },
+   {
+    "item": "Colombian Drip",
+    "pair_count": 44,
+    "confidence": 0.0657,
+    "lift": 0.9124
+   },
+   {
+    "item": "Organic Hot Chocolate",
+    "pair_count": 30,
+    "confidence": 0.0448,
+    "lift": 0.9018
+   },
+   {
+    "item": "Traditional Blend Chai",
+    "pair_count": 29,
+    "confidence": 0.0433,
+    "lift": 0.8976
+   },
+   {
+    "item": "Brazilian Organic Drip",
+    "pair_count": 40,
+    "confidence": 0.0597,
+    "lift": 0.819
+   },
+   {
+    "item": "Cappuccino",
+    "pair_count": 24,
+    "confidence": 0.0358,
+    "lift": 0.744
+   },
+   {
+    "item": "Dark Hot Chocolate",
+    "pair_count": 24,
+    "confidence": 0.0358,
+    "lift": 0.7436
+   },
+   {
+    "item": "Old Time Diner Blend",
+    "pair_count": 36,
+    "confidence": 0.0537,
+    "lift": 0.7402
+   },
+   {
+    "item": "Lemon Grass Tea",
+    "pair_count": 22,
+    "confidence": 0.0328,
+    "lift": 0.6994
+   },
+   {
+    "item": "Latte",
+    "pair_count": 20,
+    "confidence": 0.0299,
+    "lift": 0.6024
+   },
+   {
+    "item": "Ginger Scone",
+    "pair_count": 8,
+    "confidence": 0.0119,
+    "lift": 0.5939
+   }
+  ],
+  "Oatmeal Scone": [
+   {
+    "item": "Sugar-Free Vanilla Syrup",
+    "pair_count": 17,
+    "confidence": 0.0278,
+    "lift": 1.8024
+   },
+   {
+    "item": "Ouro Brasileiro Espresso",
+    "pair_count": 18,
+    "confidence": 0.0295,
+    "lift": 1.5456
+   },
+   {
+    "item": "Jamaican Coffee River",
+    "pair_count": 49,
+    "confidence": 0.0802,
+    "lift": 1.1475
+   },
+   {
+    "item": "Colombian Drip",
+    "pair_count": 50,
+    "confidence": 0.0818,
+    "lift": 1.1369
+   },
+   {
+    "item": "Spicy Eye Opener Chai",
+    "pair_count": 32,
+    "confidence": 0.0524,
+    "lift": 1.0907
+   },
+   {
+    "item": "Brazilian Organic Drip",
+    "pair_count": 47,
+    "confidence": 0.0769,
+    "lift": 1.0552
+   },
+   {
+    "item": "Espresso",
+    "pair_count": 15,
+    "confidence": 0.0245,
+    "lift": 1.0413
+   },
+   {
+    "item": "Caramel Syrup",
+    "pair_count": 9,
+    "confidence": 0.0147,
+    "lift": 1.029
+   },
+   {
+    "item": "Cappuccino",
+    "pair_count": 30,
+    "confidence": 0.0491,
+    "lift": 1.0198
+   },
+   {
+    "item": "Chocolate Syrup",
+    "pair_count": 9,
+    "confidence": 0.0147,
+    "lift": 1.0146
+   },
+   {
+    "item": "Dark Hot Chocolate",
+    "pair_count": 29,
+    "confidence": 0.0475,
+    "lift": 0.9853
+   },
+   {
+    "item": "Latte",
+    "pair_count": 29,
+    "confidence": 0.0475,
+    "lift": 0.9579
+   },
+   {
+    "item": "English Breakfast",
+    "pair_count": 27,
+    "confidence": 0.0442,
+    "lift": 0.9296
+   },
+   {
+    "item": "Old Time Diner Blend",
+    "pair_count": 41,
+    "confidence": 0.0671,
+    "lift": 0.9244
+   },
+   {
+    "item": "Morning Sunrise Chai",
+    "pair_count": 28,
+    "confidence": 0.0458,
+    "lift": 0.9239
+   },
+   {
+    "item": "Organic Hot Chocolate",
+    "pair_count": 28,
+    "confidence": 0.0458,
+    "lift": 0.9229
+   },
+   {
+    "item": "Earl Grey",
+    "pair_count": 27,
+    "confidence": 0.0442,
+    "lift": 0.8992
+   },
+   {
+    "item": "Traditional Blend Chai",
+    "pair_count": 26,
+    "confidence": 0.0426,
+    "lift": 0.8824
+   },
+   {
+    "item": "Serenity Green Tea",
+    "pair_count": 25,
+    "confidence": 0.0409,
+    "lift": 0.8521
+   },
+   {
+    "item": "Peppermint Tea",
+    "pair_count": 25,
+    "confidence": 0.0409,
+    "lift": 0.8453
+   },
+   {
+    "item": "Ethiopia Pour-Over",
+    "pair_count": 37,
+    "confidence": 0.0606,
+    "lift": 0.8281
+   },
+   {
+    "item": "Lemon Grass Tea",
+    "pair_count": 18,
+    "confidence": 0.0295,
+    "lift": 0.6275
+   },
+   {
+    "item": "Ginger Scone",
+    "pair_count": 7,
+    "confidence": 0.0115,
+    "lift": 0.5698
+   }
+  ],
+  "Old Time Diner Blend": [
+   {
+    "item": "Almond Croissant",
+    "pair_count": 53,
+    "confidence": 0.0186,
+    "lift": 1.139
+   },
+   {
+    "item": "Croissant",
+    "pair_count": 46,
+    "confidence": 0.0162,
+    "lift": 0.984
+   },
+   {
+    "item": "Jumbo Savory Scone",
+    "pair_count": 48,
+    "confidence": 0.0169,
+    "lift": 0.9767
+   },
+   {
+    "item": "Chocolate Chip Biscotti",
+    "pair_count": 44,
+    "confidence": 0.0155,
+    "lift": 0.9745
+   },
+   {
+    "item": "Ginger Biscotti",
+    "pair_count": 42,
+    "confidence": 0.0148,
+    "lift": 0.9548
+   },
+   {
+    "item": "Oatmeal Scone",
+    "pair_count": 41,
+    "confidence": 0.0144,
+    "lift": 0.9244
+   },
+   {
+    "item": "Cranberry Scone",
+    "pair_count": 45,
+    "confidence": 0.0158,
+    "lift": 0.913
+   },
+   {
+    "item": "Scottish Cream Scone",
+    "pair_count": 42,
+    "confidence": 0.0148,
+    "lift": 0.9069
+   },
+   {
+    "item": "Hazelnut Biscotti",
+    "pair_count": 36,
+    "confidence": 0.0127,
+    "lift": 0.7402
+   },
+   {
+    "item": "Chocolate Croissant",
+    "pair_count": 43,
+    "confidence": 0.0151,
+    "lift": 0.6248
+   },
+   {
+    "item": "Ginger Scone",
+    "pair_count": 25,
+    "confidence": 0.0088,
+    "lift": 0.437
+   }
+  ],
+  "Almond Croissant": [
+   {
+    "item": "Ouro Brasileiro Espresso",
+    "pair_count": 20,
+    "confidence": 0.0312,
+    "lift": 1.637
+   },
+   {
+    "item": "Hazelnut Syrup",
+    "pair_count": 13,
+    "confidence": 0.0203,
+    "lift": 1.5524
+   },
+   {
+    "item": "Cappuccino",
+    "pair_count": 40,
+    "confidence": 0.0624,
+    "lift": 1.2961
+   },
+   {
+    "item": "Sugar-Free Vanilla Syrup",
+    "pair_count": 12,
+    "confidence": 0.0187,
+    "lift": 1.2127
+   },
+   {
+    "item": "Traditional Blend Chai",
+    "pair_count": 37,
+    "confidence": 0.0577,
+    "lift": 1.197
+   },
+   {
+    "item": "Chocolate Syrup",
+    "pair_count": 11,
+    "confidence": 0.0172,
+    "lift": 1.182
+   },
+   {
+    "item": "Old Time Diner Blend",
+    "pair_count": 53,
+    "confidence": 0.0827,
+    "lift": 1.139
+   },
+   {
+    "item": "Lemon Grass Tea",
+    "pair_count": 33,
+    "confidence": 0.0515,
+    "lift": 1.0966
+   },
+   {
+    "item": "Organic Hot Chocolate",
+    "pair_count": 34,
+    "confidence": 0.053,
+    "lift": 1.0683
+   },
+   {
+    "item": "Brazilian Organic Drip",
+    "pair_count": 46,
+    "confidence": 0.0718,
+    "lift": 0.9844
+   },
+   {
+    "item": "Peppermint Tea",
+    "pair_count": 30,
+    "confidence": 0.0468,
+    "lift": 0.9669
+   },
+   {
+    "item": "Jamaican Coffee River",
+    "pair_count": 41,
+    "confidence": 0.064,
+    "lift": 0.9152
+   },
+   {
+    "item": "Latte",
+    "pair_count": 29,
+    "confidence": 0.0452,
+    "lift": 0.913
+   },
+   {
+    "item": "Spicy Eye Opener Chai",
+    "pair_count": 28,
+    "confidence": 0.0437,
+    "lift": 0.9097
+   },
+   {
+    "item": "English Breakfast",
+    "pair_count": 27,
+    "confidence": 0.0421,
+    "lift": 0.8861
+   },
+   {
+    "item": "Dark Hot Chocolate",
+    "pair_count": 27,
+    "confidence": 0.0421,
+    "lift": 0.8744
+   },
+   {
+    "item": "Morning Sunrise Chai",
+    "pair_count": 27,
+    "confidence": 0.0421,
+    "lift": 0.8492
+   },
+   {
+    "item": "Serenity Green Tea",
+    "pair_count": 25,
+    "confidence": 0.039,
+    "lift": 0.8122
+   },
+   {
+    "item": "Earl Grey",
+    "pair_count": 25,
+    "confidence": 0.039,
+    "lift": 0.7936
+   },
+   {
+    "item": "Colombian Drip",
+    "pair_count": 36,
+    "confidence": 0.0562,
+    "lift": 0.7803
+   },
+   {
+    "item": "Caramel Syrup",
+    "pair_count": 7,
+    "confidence": 0.0109,
+    "lift": 0.7629
+   },
+   {
+    "item": "Ethiopia Pour-Over",
+    "pair_count": 34,
+    "confidence": 0.053,
+    "lift": 0.7253
+   },
+   {
+    "item": "Ginger Scone",
+    "pair_count": 9,
+    "confidence": 0.014,
+    "lift": 0.6983
+   },
+   {
+    "item": "Espresso",
+    "pair_count": 10,
+    "confidence": 0.0156,
+    "lift": 0.6617
+   }
+  ],
+  "Brazilian Organic Drip": [
+   {
+    "item": "Ginger Biscotti",
+    "pair_count": 48,
+    "confidence": 0.0168,
+    "lift": 1.0866
+   },
+   {
+    "item": "Oatmeal Scone",
+    "pair_count": 47,
+    "confidence": 0.0165,
+    "lift": 1.0552
+   },
+   {
+    "item": "Jumbo Savory Scone",
+    "pair_count": 52,
+    "confidence": 0.0182,
+    "lift": 1.0537
+   },
+   {
+    "item": "Almond Croissant",
+    "pair_count": 46,
+    "confidence": 0.0161,
+    "lift": 0.9844
+   },
+   {
+    "item": "Cranberry Scone",
+    "pair_count": 47,
+    "confidence": 0.0165,
+    "lift": 0.9495
+   },
+   {
+    "item": "Chocolate Croissant",
+    "pair_count": 65,
+    "confidence": 0.0228,
+    "lift": 0.9406
+   },
+   {
+    "item": "Chocolate Chip Biscotti",
+    "pair_count": 39,
+    "confidence": 0.0137,
+    "lift": 0.8601
+   },
+   {
+    "item": "Croissant",
+    "pair_count": 39,
+    "confidence": 0.0137,
+    "lift": 0.8307
+   },
+   {
+    "item": "Hazelnut Biscotti",
+    "pair_count": 40,
+    "confidence": 0.014,
+    "lift": 0.819
+   },
+   {
+    "item": "Ginger Scone",
+    "pair_count": 42,
+    "confidence": 0.0147,
+    "lift": 0.7312
+   },
+   {
+    "item": "Scottish Cream Scone",
+    "pair_count": 33,
+    "confidence": 0.0116,
+    "lift": 0.7095
+   }
+  ],
+  "Jamaican Coffee River": [
+   {
+    "item": "Ginger Biscotti",
+    "pair_count": 51,
+    "confidence": 0.0186,
+    "lift": 1.2042
+   },
+   {
+    "item": "Oatmeal Scone",
+    "pair_count": 49,
+    "confidence": 0.0179,
+    "lift": 1.1475
+   },
+   {
+    "item": "Chocolate Chip Biscotti",
+    "pair_count": 49,
+    "confidence": 0.0179,
+    "lift": 1.1272
+   },
+   {
+    "item": "Scottish Cream Scone",
+    "pair_count": 47,
+    "confidence": 0.0172,
+    "lift": 1.0541
+   },
+   {
+    "item": "Hazelnut Biscotti",
+    "pair_count": 46,
+    "confidence": 0.0168,
+    "lift": 0.9824
+   },
+   {
+    "item": "Croissant",
+    "pair_count": 43,
+    "confidence": 0.0157,
+    "lift": 0.9554
+   },
+   {
+    "item": "Almond Croissant",
+    "pair_count": 41,
+    "confidence": 0.015,
+    "lift": 0.9152
+   },
+   {
+    "item": "Jumbo Savory Scone",
+    "pair_count": 43,
+    "confidence": 0.0157,
+    "lift": 0.9088
+   },
+   {
+    "item": "Cranberry Scone",
+    "pair_count": 40,
+    "confidence": 0.0146,
+    "lift": 0.8429
+   },
+   {
+    "item": "Chocolate Croissant",
+    "pair_count": 44,
+    "confidence": 0.0161,
+    "lift": 0.6641
+   },
+   {
+    "item": "Ginger Scone",
+    "pair_count": 33,
+    "confidence": 0.012,
+    "lift": 0.5992
+   }
+  ],
+  "Caramel Syrup": [
+   {
+    "item": "Espresso",
+    "pair_count": 110,
+    "confidence": 0.1961,
+    "lift": 8.3168
+   },
+   {
+    "item": "Cappuccino",
+    "pair_count": 224,
+    "confidence": 0.3993,
+    "lift": 8.293
+   },
+   {
+    "item": "Latte",
+    "pair_count": 224,
+    "confidence": 0.3993,
+    "lift": 8.0581
+   },
+   {
+    "item": "Chocolate Chip Biscotti",
+    "pair_count": 14,
+    "confidence": 0.025,
+    "lift": 1.5724
+   },
+   {
+    "item": "Cranberry Scone",
+    "pair_count": 12,
+    "confidence": 0.0214,
+    "lift": 1.2347
+   },
+   {
+    "item": "Scottish Cream Scone",
+    "pair_count": 11,
+    "confidence": 0.0196,
+    "lift": 1.2045
+   },
+   {
+    "item": "Oatmeal Scone",
+    "pair_count": 9,
+    "confidence": 0.016,
+    "lift": 1.029
+   },
+   {
+    "item": "Croissant",
+    "pair_count": 9,
+    "confidence": 0.016,
+    "lift": 0.9763
+   },
+   {
+    "item": "Hazelnut Biscotti",
+    "pair_count": 9,
+    "confidence": 0.016,
+    "lift": 0.9384
+   },
+   {
+    "item": "Ginger Biscotti",
+    "pair_count": 7,
+    "confidence": 0.0125,
+    "lift": 0.807
+   },
+   {
+    "item": "Ginger Scone",
+    "pair_count": 9,
+    "confidence": 0.016,
+    "lift": 0.7979
+   },
+   {
+    "item": "Almond Croissant",
+    "pair_count": 7,
+    "confidence": 0.0125,
+    "lift": 0.7629
+   },
+   {
+    "item": "Jumbo Savory Scone",
+    "pair_count": 7,
+    "confidence": 0.0125,
+    "lift": 0.7223
+   },
+   {
+    "item": "Chocolate Croissant",
+    "pair_count": 5,
+    "confidence": 0.0089,
+    "lift": 0.3685
+   }
+  ],
+  "Espresso": [
+   {
+    "item": "Caramel Syrup",
+    "pair_count": 110,
+    "confidence": 0.119,
+    "lift": 8.3168
+   },
+   {
+    "item": "Chocolate Syrup",
+    "pair_count": 111,
+    "confidence": 0.1201,
+    "lift": 8.2744
+   },
+   {
+    "item": "Sugar-Free Vanilla Syrup",
+    "pair_count": 113,
+    "confidence": 0.1223,
+    "lift": 7.9222
+   },
+   {
+    "item": "Hazelnut Syrup",
+    "pair_count": 90,
+    "confidence": 0.0974,
+    "lift": 7.4559
+   },
+   {
+    "item": "Hazelnut Biscotti",
+    "pair_count": 20,
+    "confidence": 0.0216,
+    "lift": 1.2661
+   },
+   {
+    "item": "Cranberry Scone",
+    "pair_count": 20,
+    "confidence": 0.0216,
+    "lift": 1.2494
+   },
+   {
+    "item": "Oatmeal Scone",
+    "pair_count": 15,
+    "confidence": 0.0162,
+    "lift": 1.0413
+   },
+   {
+    "item": "Chocolate Chip Biscotti",
+    "pair_count": 15,
+    "confidence": 0.0162,
+    "lift": 1.0229
+   },
+   {
+    "item": "Scottish Cream Scone",
+    "pair_count": 14,
+    "confidence": 0.0152,
+    "lift": 0.9307
+   },
+   {
+    "item": "Croissant",
+    "pair_count": 14,
+    "confidence": 0.0152,
+    "lift": 0.9221
+   },
+   {
+    "item": "Ginger Biscotti",
+    "pair_count": 10,
+    "confidence": 0.0108,
+    "lift": 0.6999
+   },
+   {
+    "item": "Chocolate Croissant",
+    "pair_count": 15,
+    "confidence": 0.0162,
+    "lift": 0.6711
+   },
+   {
+    "item": "Almond Croissant",
+    "pair_count": 10,
+    "confidence": 0.0108,
+    "lift": 0.6617
+   },
+   {
+    "item": "Jumbo Savory Scone",
+    "pair_count": 9,
+    "confidence": 0.0097,
+    "lift": 0.5639
+   },
+   {
+    "item": "Ginger Scone",
+    "pair_count": 5,
+    "confidence": 0.0054,
+    "lift": 0.2691
+   }
+  ],
+  "Hazelnut Syrup": [
+   {
+    "item": "Latte",
+    "pair_count": 232,
+    "confidence": 0.4531,
+    "lift": 9.1446
+   },
+   {
+    "item": "Cappuccino",
+    "pair_count": 188,
+    "confidence": 0.3672,
+    "lift": 7.6263
+   },
+   {
+    "item": "Espresso",
+    "pair_count": 90,
+    "confidence": 0.1758,
+    "lift": 7.4559
+   },
+   {
+    "item": "Almond Croissant",
+    "pair_count": 13,
+    "confidence": 0.0254,
+    "lift": 1.5524
+   },
+   {
+    "item": "Chocolate Croissant",
+    "pair_count": 16,
+    "confidence": 0.0312,
+    "lift": 1.2919
+   },
+   {
+    "item": "Cranberry Scone",
+    "pair_count": 11,
+    "confidence": 0.0215,
+    "lift": 1.2401
+   },
+   {
+    "item": "Croissant",
+    "pair_count": 10,
+    "confidence": 0.0195,
+    "lift": 1.1886
+   },
+   {
+    "item": "Jumbo Savory Scone",
+    "pair_count": 9,
+    "confidence": 0.0176,
+    "lift": 1.0176
+   },
+   {
+    "item": "Scottish Cream Scone",
+    "pair_count": 8,
+    "confidence": 0.0156,
+    "lift": 0.9598
+   },
+   {
+    "item": "Chocolate Chip Biscotti",
+    "pair_count": 7,
+    "confidence": 0.0137,
+    "lift": 0.8615
+   },
+   {
+    "item": "Ginger Scone",
+    "pair_count": 8,
+    "confidence": 0.0156,
+    "lift": 0.7771
+   },
+   {
+    "item": "Ginger Biscotti",
+    "pair_count": 6,
+    "confidence": 0.0117,
+    "lift": 0.7579
+   }
+  ],
+  "Latte": [
+   {
+    "item": "Hazelnut Syrup",
+    "pair_count": 232,
+    "confidence": 0.1195,
+    "lift": 9.1446
+   },
+   {
+    "item": "Caramel Syrup",
+    "pair_count": 224,
+    "confidence": 0.1153,
+    "lift": 8.0581
+   },
+   {
+    "item": "Sugar-Free Vanilla Syrup",
+    "pair_count": 233,
+    "confidence": 0.12,
+    "lift": 7.7723
+   },
+   {
+    "item": "Chocolate Syrup",
+    "pair_count": 217,
+    "confidence": 0.1117,
+    "lift": 7.6965
+   },
+   {
+    "item": "Scottish Cream Scone",
+    "pair_count": 41,
+    "confidence": 0.0211,
+    "lift": 1.2969
+   },
+   {
+    "item": "Croissant",
+    "pair_count": 40,
+    "confidence": 0.0206,
+    "lift": 1.2535
+   },
+   {
+    "item": "Chocolate Chip Biscotti",
+    "pair_count": 33,
+    "confidence": 0.017,
+    "lift": 1.0707
+   },
+   {
+    "item": "Oatmeal Scone",
+    "pair_count": 29,
+    "confidence": 0.0149,
+    "lift": 0.9579
+   },
+   {
+    "item": "Jumbo Savory Scone",
+    "pair_count": 31,
+    "confidence": 0.016,
+    "lift": 0.9241
+   },
+   {
+    "item": "Almond Croissant",
+    "pair_count": 29,
+    "confidence": 0.0149,
+    "lift": 0.913
+   },
+   {
+    "item": "Cranberry Scone",
+    "pair_count": 30,
+    "confidence": 0.0154,
+    "lift": 0.8917
+   },
+   {
+    "item": "Ginger Scone",
+    "pair_count": 30,
+    "confidence": 0.0154,
+    "lift": 0.7683
+   },
+   {
+    "item": "Chocolate Croissant",
+    "pair_count": 32,
+    "confidence": 0.0165,
+    "lift": 0.6812
+   },
+   {
+    "item": "Hazelnut Biscotti",
+    "pair_count": 20,
+    "confidence": 0.0103,
+    "lift": 0.6024
+   },
+   {
+    "item": "Ginger Biscotti",
+    "pair_count": 18,
+    "confidence": 0.0093,
+    "lift": 0.5994
+   }
+  ],
+  "Ginger Scone": [
+   {
+    "item": "Ouro Brasileiro Espresso",
+    "pair_count": 236,
+    "confidence": 0.2995,
+    "lift": 15.7131
+   },
+   {
+    "item": "Lemon Grass Tea",
+    "pair_count": 36,
+    "confidence": 0.0457,
+    "lift": 0.9731
+   },
+   {
+    "item": "Morning Sunrise Chai",
+    "pair_count": 37,
+    "confidence": 0.047,
+    "lift": 0.9466
+   },
+   {
+    "item": "Organic Hot Chocolate",
+    "pair_count": 33,
+    "confidence": 0.0419,
+    "lift": 0.8434
+   },
+   {
+    "item": "Dark Hot Chocolate",
+    "pair_count": 31,
+    "confidence": 0.0393,
+    "lift": 0.8166
+   },
+   {
+    "item": "Caramel Syrup",
+    "pair_count": 9,
+    "confidence": 0.0114,
+    "lift": 0.7979
+   },
+   {
+    "item": "Ethiopia Pour-Over",
+    "pair_count": 45,
+    "confidence": 0.0571,
+    "lift": 0.7809
+   },
+   {
+    "item": "Hazelnut Syrup",
+    "pair_count": 8,
+    "confidence": 0.0102,
+    "lift": 0.7771
+   },
+   {
+    "item": "Latte",
+    "pair_count": 30,
+    "confidence": 0.0381,
+    "lift": 0.7683
+   },
+   {
+    "item": "Colombian Drip",
+    "pair_count": 42,
+    "confidence": 0.0533,
+    "lift": 0.7405
+   },
+   {
+    "item": "Sugar-Free Vanilla Syrup",
+    "pair_count": 9,
+    "confidence": 0.0114,
+    "lift": 0.7399
+   },
+   {
+    "item": "Peppermint Tea",
+    "pair_count": 28,
+    "confidence": 0.0355,
+    "lift": 0.7341
+   },
+   {
+    "item": "Brazilian Organic Drip",
+    "pair_count": 42,
+    "confidence": 0.0533,
+    "lift": 0.7312
+   },
+   {
+    "item": "Cappuccino",
+    "pair_count": 27,
+    "confidence": 0.0343,
+    "lift": 0.7116
+   },
+   {
+    "item": "Traditional Blend Chai",
+    "pair_count": 27,
+    "confidence": 0.0343,
+    "lift": 0.7105
+   },
+   {
+    "item": "Almond Croissant",
+    "pair_count": 9,
+    "confidence": 0.0114,
+    "lift": 0.6983
+   },
+   {
+    "item": "Earl Grey",
+    "pair_count": 25,
+    "confidence": 0.0317,
+    "lift": 0.6456
+   },
+   {
+    "item": "English Breakfast",
+    "pair_count": 23,
+    "confidence": 0.0292,
+    "lift": 0.614
+   },
+   {
+    "item": "Jamaican Coffee River",
+    "pair_count": 33,
+    "confidence": 0.0419,
+    "lift": 0.5992
+   },
+   {
+    "item": "Hazelnut Biscotti",
+    "pair_count": 8,
+    "confidence": 0.0102,
+    "lift": 0.5939
+   },
+   {
+    "item": "Oatmeal Scone",
+    "pair_count": 7,
+    "confidence": 0.0089,
+    "lift": 0.5698
+   },
+   {
+    "item": "Serenity Green Tea",
+    "pair_count": 21,
+    "confidence": 0.0266,
+    "lift": 0.555
+   },
+   {
+    "item": "Spicy Eye Opener Chai",
+    "pair_count": 19,
+    "confidence": 0.0241,
+    "lift": 0.5021
+   },
+   {
+    "item": "Jumbo Savory Scone",
+    "pair_count": 6,
+    "confidence": 0.0076,
+    "lift": 0.4408
+   },
+   {
+    "item": "Cranberry Scone",
+    "pair_count": 6,
+    "confidence": 0.0076,
+    "lift": 0.4395
+   },
+   {
+    "item": "Chocolate Syrup",
+    "pair_count": 5,
+    "confidence": 0.0063,
+    "lift": 0.437
+   },
+   {
+    "item": "Old Time Diner Blend",
+    "pair_count": 25,
+    "confidence": 0.0317,
+    "lift": 0.437
+   },
+   {
+    "item": "Espresso",
+    "pair_count": 5,
+    "confidence": 0.0063,
+    "lift": 0.2691
+   }
+  ],
+  "Ouro Brasileiro Espresso": [
+   {
+    "item": "Ginger Scone",
+    "pair_count": 236,
+    "confidence": 0.3159,
+    "lift": 15.7131
+   },
+   {
+    "item": "Almond Croissant",
+    "pair_count": 20,
+    "confidence": 0.0268,
+    "lift": 1.637
+   },
+   {
+    "item": "Oatmeal Scone",
+    "pair_count": 18,
+    "confidence": 0.0241,
+    "lift": 1.5456
+   },
+   {
+    "item": "Hazelnut Biscotti",
+    "pair_count": 14,
+    "confidence": 0.0187,
+    "lift": 1.0963
+   },
+   {
+    "item": "Jumbo Savory Scone",
+    "pair_count": 14,
+    "confidence": 0.0187,
+    "lift": 1.085
+   },
+   {
+    "item": "Cranberry Scone",
+    "pair_count": 14,
+    "confidence": 0.0187,
+    "lift": 1.0818
+   },
+   {
+    "item": "Chocolate Chip Biscotti",
+    "pair_count": 10,
+    "confidence": 0.0134,
+    "lift": 0.8435
+   },
+   {
+    "item": "Ginger Biscotti",
+    "pair_count": 9,
+    "confidence": 0.012,
+    "lift": 0.7792
+   },
+   {
+    "item": "Scottish Cream Scone",
+    "pair_count": 8,
+    "confidence": 0.0107,
+    "lift": 0.6579
+   },
+   {
+    "item": "Chocolate Croissant",
+    "pair_count": 10,
+    "confidence": 0.0134,
+    "lift": 0.5534
+   },
+   {
+    "item": "Croissant",
+    "pair_count": 5,
+    "confidence": 0.0067,
+    "lift": 0.4073
+   }
+  ],
+  "Traditional Blend Chai": [
+   {
+    "item": "Almond Croissant",
+    "pair_count": 37,
+    "confidence": 0.0196,
+    "lift": 1.197
+   },
+   {
+    "item": "Jumbo Savory Scone",
+    "pair_count": 39,
+    "confidence": 0.0206,
+    "lift": 1.1946
+   },
+   {
+    "item": "Croissant",
+    "pair_count": 35,
+    "confidence": 0.0185,
+    "lift": 1.127
+   },
+   {
+    "item": "Scottish Cream Scone",
+    "pair_count": 33,
+    "confidence": 0.0175,
+    "lift": 1.0726
+   },
+   {
+    "item": "Ginger Biscotti",
+    "pair_count": 30,
+    "confidence": 0.0159,
+    "lift": 1.0266
+   },
+   {
+    "item": "Hazelnut Biscotti",
+    "pair_count": 29,
+    "confidence": 0.0153,
+    "lift": 0.8976
+   },
+   {
+    "item": "Oatmeal Scone",
+    "pair_count": 26,
+    "confidence": 0.0138,
+    "lift": 0.8824
+   },
+   {
+    "item": "Cranberry Scone",
+    "pair_count": 28,
+    "confidence": 0.0148,
+    "lift": 0.8551
+   },
+   {
+    "item": "Chocolate Chip Biscotti",
+    "pair_count": 25,
+    "confidence": 0.0132,
+    "lift": 0.8335
+   },
+   {
+    "item": "Chocolate Croissant",
+    "pair_count": 36,
+    "confidence": 0.019,
+    "lift": 0.7875
+   },
+   {
+    "item": "Ginger Scone",
+    "pair_count": 27,
+    "confidence": 0.0143,
+    "lift": 0.7105
+   }
+  ],
+  "Ethiopia Pour-Over": [
+   {
+    "item": "Ginger Biscotti",
+    "pair_count": 48,
+    "confidence": 0.0167,
+    "lift": 1.0832
+   },
+   {
+    "item": "Scottish Cream Scone",
+    "pair_count": 50,
+    "confidence": 0.0174,
+    "lift": 1.0717
+   },
+   {
+    "item": "Croissant",
+    "pair_count": 49,
+    "confidence": 0.0171,
+    "lift": 1.0405
+   },
+   {
+    "item": "Chocolate Chip Biscotti",
+    "pair_count": 46,
+    "confidence": 0.0161,
+    "lift": 1.0113
+   },
+   {
+    "item": "Hazelnut Biscotti",
+    "pair_count": 48,
+    "confidence": 0.0167,
+    "lift": 0.9797
+   },
+   {
+    "item": "Cranberry Scone",
+    "pair_count": 46,
+    "confidence": 0.0161,
+    "lift": 0.9264
+   },
+   {
+    "item": "Jumbo Savory Scone",
+    "pair_count": 41,
+    "confidence": 0.0143,
+    "lift": 0.8282
+   },
+   {
+    "item": "Oatmeal Scone",
+    "pair_count": 37,
+    "confidence": 0.0129,
+    "lift": 0.8281
+   },
+   {
+    "item": "Ginger Scone",
+    "pair_count": 45,
+    "confidence": 0.0157,
+    "lift": 0.7809
+   },
+   {
+    "item": "Almond Croissant",
+    "pair_count": 34,
+    "confidence": 0.0119,
+    "lift": 0.7253
+   },
+   {
+    "item": "Chocolate Croissant",
+    "pair_count": 35,
+    "confidence": 0.0122,
+    "lift": 0.5049
+   }
+  ],
+  "Jumbo Savory Scone": [
+   {
+    "item": "Serenity Green Tea",
+    "pair_count": 48,
+    "confidence": 0.0709,
+    "lift": 1.4765
+   },
+   {
+    "item": "Morning Sunrise Chai",
+    "pair_count": 41,
+    "confidence": 0.0606,
+    "lift": 1.2209
+   },
+   {
+    "item": "Traditional Blend Chai",
+    "pair_count": 39,
+    "confidence": 0.0576,
+    "lift": 1.1946
+   },
+   {
+    "item": "Earl Grey",
+    "pair_count": 38,
+    "confidence": 0.0561,
+    "lift": 1.1422
+   },
+   {
+    "item": "Cappuccino",
+    "pair_count": 36,
+    "confidence": 0.0532,
+    "lift": 1.1044
+   },
+   {
+    "item": "Ouro Brasileiro Espresso",
+    "pair_count": 14,
+    "confidence": 0.0207,
+    "lift": 1.085
+   },
+   {
+    "item": "Brazilian Organic Drip",
+    "pair_count": 52,
+    "confidence": 0.0768,
+    "lift": 1.0537
+   },
+   {
+    "item": "Hazelnut Syrup",
+    "pair_count": 9,
+    "confidence": 0.0133,
+    "lift": 1.0176
+   },
+   {
+    "item": "Dark Hot Chocolate",
+    "pair_count": 32,
+    "confidence": 0.0473,
+    "lift": 0.9812
+   },
+   {
+    "item": "Old Time Diner Blend",
+    "pair_count": 48,
+    "confidence": 0.0709,
+    "lift": 0.9767
+   },
+   {
+    "item": "Sugar-Free Vanilla Syrup",
+    "pair_count": 10,
+    "confidence": 0.0148,
+    "lift": 0.9569
+   },
+   {
+    "item": "Lemon Grass Tea",
+    "pair_count": 30,
+    "confidence": 0.0443,
+    "lift": 0.9439
+   },
+   {
+    "item": "Latte",
+    "pair_count": 31,
+    "confidence": 0.0458,
+    "lift": 0.9241
+   },
+   {
+    "item": "Jamaican Coffee River",
+    "pair_count": 43,
+    "confidence": 0.0635,
+    "lift": 0.9088
+   },
+   {
+    "item": "English Breakfast",
+    "pair_count": 29,
+    "confidence": 0.0428,
+    "lift": 0.9011
+   },
+   {
+    "item": "Peppermint Tea",
+    "pair_count": 28,
+    "confidence": 0.0414,
+    "lift": 0.8545
+   },
+   {
+    "item": "Ethiopia Pour-Over",
+    "pair_count": 41,
+    "confidence": 0.0606,
+    "lift": 0.8282
+   },
+   {
+    "item": "Chocolate Syrup",
+    "pair_count": 8,
+    "confidence": 0.0118,
+    "lift": 0.8139
+   },
+   {
+    "item": "Caramel Syrup",
+    "pair_count": 7,
+    "confidence": 0.0103,
+    "lift": 0.7223
+   },
+   {
+    "item": "Colombian Drip",
+    "pair_count": 33,
+    "confidence": 0.0487,
+    "lift": 0.6772
+   },
+   {
+    "item": "Spicy Eye Opener Chai",
+    "pair_count": 21,
+    "confidence": 0.031,
+    "lift": 0.646
+   },
+   {
+    "item": "Organic Hot Chocolate",
+    "pair_count": 21,
+    "confidence": 0.031,
+    "lift": 0.6247
+   },
+   {
+    "item": "Espresso",
+    "pair_count": 9,
+    "confidence": 0.0133,
+    "lift": 0.5639
+   },
+   {
+    "item": "Ginger Scone",
+    "pair_count": 6,
+    "confidence": 0.0089,
+    "lift": 0.4408
+   }
+  ],
+  "Sugar-Free Vanilla Syrup": [
+   {
+    "item": "Cappuccino",
+    "pair_count": 257,
+    "confidence": 0.4248,
+    "lift": 8.8227
+   },
+   {
+    "item": "Espresso",
+    "pair_count": 113,
+    "confidence": 0.1868,
+    "lift": 7.9222
+   },
+   {
+    "item": "Latte",
+    "pair_count": 233,
+    "confidence": 0.3851,
+    "lift": 7.7723
+   },
+   {
+    "item": "Oatmeal Scone",
+    "pair_count": 17,
+    "confidence": 0.0281,
+    "lift": 1.8024
+   },
+   {
+    "item": "Scottish Cream Scone",
+    "pair_count": 12,
+    "confidence": 0.0198,
+    "lift": 1.2184
+   },
+   {
+    "item": "Almond Croissant",
+    "pair_count": 12,
+    "confidence": 0.0198,
+    "lift": 1.2127
+   },
+   {
+    "item": "Ginger Biscotti",
+    "pair_count": 11,
+    "confidence": 0.0182,
+    "lift": 1.1759
+   },
+   {
+    "item": "Chocolate Chip Biscotti",
+    "pair_count": 11,
+    "confidence": 0.0182,
+    "lift": 1.1456
+   },
+   {
+    "item": "Hazelnut Biscotti",
+    "pair_count": 11,
+    "confidence": 0.0182,
+    "lift": 1.0636
+   },
+   {
+    "item": "Croissant",
+    "pair_count": 10,
+    "confidence": 0.0165,
+    "lift": 1.0059
+   },
+   {
+    "item": "Jumbo Savory Scone",
+    "pair_count": 10,
+    "confidence": 0.0165,
+    "lift": 0.9569
+   },
+   {
+    "item": "Cranberry Scone",
+    "pair_count": 9,
+    "confidence": 0.0149,
+    "lift": 0.8586
+   },
+   {
+    "item": "Ginger Scone",
+    "pair_count": 9,
+    "confidence": 0.0149,
+    "lift": 0.7399
+   },
+   {
+    "item": "Chocolate Croissant",
+    "pair_count": 9,
+    "confidence": 0.0149,
+    "lift": 0.615
+   }
+  ],
+  "Colombian Drip": [
+   {
+    "item": "Oatmeal Scone",
+    "pair_count": 50,
+    "confidence": 0.0177,
+    "lift": 1.1369
+   },
+   {
+    "item": "Ginger Biscotti",
+    "pair_count": 43,
+    "confidence": 0.0152,
+    "lift": 0.9858
+   },
+   {
+    "item": "Cranberry Scone",
+    "pair_count": 48,
+    "confidence": 0.017,
+    "lift": 0.9821
+   },
+   {
+    "item": "Chocolate Chip Biscotti",
+    "pair_count": 42,
+    "confidence": 0.0149,
+    "lift": 0.9381
+   },
+   {
+    "item": "Hazelnut Biscotti",
+    "pair_count": 44,
+    "confidence": 0.0156,
+    "lift": 0.9124
+   },
+   {
+    "item": "Croissant",
+    "pair_count": 42,
+    "confidence": 0.0149,
+    "lift": 0.9061
+   },
+   {
+    "item": "Scottish Cream Scone",
+    "pair_count": 41,
+    "confidence": 0.0145,
+    "lift": 0.8928
+   },
+   {
+    "item": "Almond Croissant",
+    "pair_count": 36,
+    "confidence": 0.0128,
+    "lift": 0.7803
+   },
+   {
+    "item": "Chocolate Croissant",
+    "pair_count": 51,
+    "confidence": 0.0181,
+    "lift": 0.7474
+   },
+   {
+    "item": "Ginger Scone",
+    "pair_count": 42,
+    "confidence": 0.0149,
+    "lift": 0.7405
+   },
+   {
+    "item": "Jumbo Savory Scone",
+    "pair_count": 33,
+    "confidence": 0.0117,
+    "lift": 0.6772
+   }
+  ],
+  "Cappuccino": [
+   {
+    "item": "Sugar-Free Vanilla Syrup",
+    "pair_count": 257,
+    "confidence": 0.1362,
+    "lift": 8.8227
+   },
+   {
+    "item": "Chocolate Syrup",
+    "pair_count": 238,
+    "confidence": 0.1261,
+    "lift": 8.6874
+   },
+   {
+    "item": "Caramel Syrup",
+    "pair_count": 224,
+    "confidence": 0.1187,
+    "lift": 8.293
+   },
+   {
+    "item": "Hazelnut Syrup",
+    "pair_count": 188,
+    "confidence": 0.0996,
+    "lift": 7.6263
+   },
+   {
+    "item": "Ginger Biscotti",
+    "pair_count": 38,
+    "confidence": 0.0201,
+    "lift": 1.3024
+   },
+   {
+    "item": "Almond Croissant",
+    "pair_count": 40,
+    "confidence": 0.0212,
+    "lift": 1.2961
+   },
+   {
+    "item": "Chocolate Chip Biscotti",
+    "pair_count": 35,
+    "confidence": 0.0185,
+    "lift": 1.1687
+   },
+   {
+    "item": "Jumbo Savory Scone",
+    "pair_count": 36,
+    "confidence": 0.0191,
+    "lift": 1.1044
+   },
+   {
+    "item": "Croissant",
+    "pair_count": 34,
+    "confidence": 0.018,
+    "lift": 1.0965
+   },
+   {
+    "item": "Cranberry Scone",
+    "pair_count": 34,
+    "confidence": 0.018,
+    "lift": 1.04
+   },
+   {
+    "item": "Oatmeal Scone",
+    "pair_count": 30,
+    "confidence": 0.0159,
+    "lift": 1.0198
+   },
+   {
+    "item": "Hazelnut Biscotti",
+    "pair_count": 24,
+    "confidence": 0.0127,
+    "lift": 0.744
+   },
+   {
+    "item": "Ginger Scone",
+    "pair_count": 27,
+    "confidence": 0.0143,
+    "lift": 0.7116
+   },
+   {
+    "item": "Chocolate Croissant",
+    "pair_count": 29,
+    "confidence": 0.0154,
+    "lift": 0.6354
+   },
+   {
+    "item": "Scottish Cream Scone",
+    "pair_count": 16,
+    "confidence": 0.0085,
+    "lift": 0.5209
+   }
+  ],
+  "Ginger Biscotti": [
+   {
+    "item": "Cappuccino",
+    "pair_count": 38,
+    "confidence": 0.0627,
+    "lift": 1.3024
+   },
+   {
+    "item": "Jamaican Coffee River",
+    "pair_count": 51,
+    "confidence": 0.0842,
+    "lift": 1.2042
+   },
+   {
+    "item": "Spicy Eye Opener Chai",
+    "pair_count": 35,
+    "confidence": 0.0578,
+    "lift": 1.2027
+   },
+   {
+    "item": "Sugar-Free Vanilla Syrup",
+    "pair_count": 11,
+    "confidence": 0.0182,
+    "lift": 1.1759
+   },
+   {
+    "item": "Lemon Grass Tea",
+    "pair_count": 32,
+    "confidence": 0.0528,
+    "lift": 1.1248
+   },
+   {
+    "item": "Brazilian Organic Drip",
+    "pair_count": 48,
+    "confidence": 0.0792,
+    "lift": 1.0866
+   },
+   {
+    "item": "Ethiopia Pour-Over",
+    "pair_count": 48,
+    "confidence": 0.0792,
+    "lift": 1.0832
+   },
+   {
+    "item": "Traditional Blend Chai",
+    "pair_count": 30,
+    "confidence": 0.0495,
+    "lift": 1.0266
+   },
+   {
+    "item": "Chocolate Syrup",
+    "pair_count": 9,
+    "confidence": 0.0149,
+    "lift": 1.023
+   },
+   {
+    "item": "Peppermint Tea",
+    "pair_count": 30,
+    "confidence": 0.0495,
+    "lift": 1.0228
+   },
+   {
+    "item": "Colombian Drip",
+    "pair_count": 43,
+    "confidence": 0.071,
+    "lift": 0.9858
+   },
+   {
+    "item": "Earl Grey",
+    "pair_count": 29,
+    "confidence": 0.0479,
+    "lift": 0.9738
+   },
+   {
+    "item": "Old Time Diner Blend",
+    "pair_count": 42,
+    "confidence": 0.0693,
+    "lift": 0.9548
+   },
+   {
+    "item": "Morning Sunrise Chai",
+    "pair_count": 27,
+    "confidence": 0.0446,
+    "lift": 0.8982
+   },
+   {
+    "item": "Serenity Green Tea",
+    "pair_count": 26,
+    "confidence": 0.0429,
+    "lift": 0.8935
+   },
+   {
+    "item": "Organic Hot Chocolate",
+    "pair_count": 25,
+    "confidence": 0.0413,
+    "lift": 0.8308
+   },
+   {
+    "item": "Caramel Syrup",
+    "pair_count": 7,
+    "confidence": 0.0116,
+    "lift": 0.807
+   },
+   {
+    "item": "Ouro Brasileiro Espresso",
+    "pair_count": 9,
+    "confidence": 0.0149,
+    "lift": 0.7792
+   },
+   {
+    "item": "English Breakfast",
+    "pair_count": 22,
+    "confidence": 0.0363,
+    "lift": 0.7637
+   },
+   {
+    "item": "Hazelnut Syrup",
+    "pair_count": 6,
+    "confidence": 0.0099,
+    "lift": 0.7579
+   },
+   {
+    "item": "Espresso",
+    "pair_count": 10,
+    "confidence": 0.0165,
+    "lift": 0.6999
+   },
+   {
+    "item": "Dark Hot Chocolate",
+    "pair_count": 18,
+    "confidence": 0.0297,
+    "lift": 0.6166
+   },
+   {
+    "item": "Latte",
+    "pair_count": 18,
+    "confidence": 0.0297,
+    "lift": 0.5994
+   }
+  ],
+  "Chocolate Croissant": [
+   {
+    "item": "Hazelnut Syrup",
+    "pair_count": 16,
+    "confidence": 0.0169,
+    "lift": 1.2919
+   },
+   {
+    "item": "Brazilian Organic Drip",
+    "pair_count": 65,
+    "confidence": 0.0686,
+    "lift": 0.9406
+   },
+   {
+    "item": "Peppermint Tea",
+    "pair_count": 42,
+    "confidence": 0.0443,
+    "lift": 0.9153
+   },
+   {
+    "item": "Chocolate Syrup",
+    "pair_count": 11,
+    "confidence": 0.0116,
+    "lift": 0.7992
+   },
+   {
+    "item": "Traditional Blend Chai",
+    "pair_count": 36,
+    "confidence": 0.038,
+    "lift": 0.7875
+   },
+   {
+    "item": "Lemon Grass Tea",
+    "pair_count": 35,
+    "confidence": 0.0369,
+    "lift": 0.7864
+   },
+   {
+    "item": "Earl Grey",
+    "pair_count": 36,
+    "confidence": 0.038,
+    "lift": 0.7727
+   },
+   {
+    "item": "Spicy Eye Opener Chai",
+    "pair_count": 35,
+    "confidence": 0.0369,
+    "lift": 0.7688
+   },
+   {
+    "item": "Colombian Drip",
+    "pair_count": 51,
+    "confidence": 0.0538,
+    "lift": 0.7474
+   },
+   {
+    "item": "Dark Hot Chocolate",
+    "pair_count": 34,
+    "confidence": 0.0359,
+    "lift": 0.7445
+   },
+   {
+    "item": "English Breakfast",
+    "pair_count": 32,
+    "confidence": 0.0338,
+    "lift": 0.7101
+   },
+   {
+    "item": "Morning Sunrise Chai",
+    "pair_count": 33,
+    "confidence": 0.0348,
+    "lift": 0.7018
+   },
+   {
+    "item": "Latte",
+    "pair_count": 32,
+    "confidence": 0.0338,
+    "lift": 0.6812
+   },
+   {
+    "item": "Espresso",
+    "pair_count": 15,
+    "confidence": 0.0158,
+    "lift": 0.6711
+   },
+   {
+    "item": "Jamaican Coffee River",
+    "pair_count": 44,
+    "confidence": 0.0464,
+    "lift": 0.6641
+   },
+   {
+    "item": "Cappuccino",
+    "pair_count": 29,
+    "confidence": 0.0306,
+    "lift": 0.6354
+   },
+   {
+    "item": "Old Time Diner Blend",
+    "pair_count": 43,
+    "confidence": 0.0454,
+    "lift": 0.6248
+   },
+   {
+    "item": "Serenity Green Tea",
+    "pair_count": 28,
+    "confidence": 0.0295,
+    "lift": 0.6151
+   },
+   {
+    "item": "Sugar-Free Vanilla Syrup",
+    "pair_count": 9,
+    "confidence": 0.0095,
+    "lift": 0.615
+   },
+   {
+    "item": "Organic Hot Chocolate",
+    "pair_count": 27,
+    "confidence": 0.0285,
+    "lift": 0.5736
+   },
+   {
+    "item": "Ouro Brasileiro Espresso",
+    "pair_count": 10,
+    "confidence": 0.0105,
+    "lift": 0.5534
+   },
+   {
+    "item": "Ethiopia Pour-Over",
+    "pair_count": 35,
+    "confidence": 0.0369,
+    "lift": 0.5049
+   },
+   {
+    "item": "Caramel Syrup",
+    "pair_count": 5,
+    "confidence": 0.0053,
+    "lift": 0.3685
+   }
+  ],
+  "Dark Hot Chocolate": [
+   {
+    "item": "Chocolate Chip Biscotti",
+    "pair_count": 39,
+    "confidence": 0.0207,
+    "lift": 1.3016
+   },
+   {
+    "item": "Cranberry Scone",
+    "pair_count": 34,
+    "confidence": 0.018,
+    "lift": 1.0395
+   },
+   {
+    "item": "Oatmeal Scone",
+    "pair_count": 29,
+    "confidence": 0.0154,
+    "lift": 0.9853
+   },
+   {
+    "item": "Jumbo Savory Scone",
+    "pair_count": 32,
+    "confidence": 0.0169,
+    "lift": 0.9812
+   },
+   {
+    "item": "Scottish Cream Scone",
+    "pair_count": 30,
+    "confidence": 0.0159,
+    "lift": 0.9761
+   },
+   {
+    "item": "Almond Croissant",
+    "pair_count": 27,
+    "confidence": 0.0143,
+    "lift": 0.8744
+   },
+   {
+    "item": "Croissant",
+    "pair_count": 27,
+    "confidence": 0.0143,
+    "lift": 0.8703
+   },
+   {
+    "item": "Ginger Scone",
+    "pair_count": 31,
+    "confidence": 0.0164,
+    "lift": 0.8166
+   },
+   {
+    "item": "Chocolate Croissant",
+    "pair_count": 34,
+    "confidence": 0.018,
+    "lift": 0.7445
+   },
+   {
+    "item": "Hazelnut Biscotti",
+    "pair_count": 24,
+    "confidence": 0.0127,
+    "lift": 0.7436
+   },
+   {
+    "item": "Ginger Biscotti",
+    "pair_count": 18,
+    "confidence": 0.0095,
+    "lift": 0.6166
+   }
+  ],
+  "Chocolate Chip Biscotti": [
+   {
+    "item": "Caramel Syrup",
+    "pair_count": 14,
+    "confidence": 0.0225,
+    "lift": 1.5724
+   },
+   {
+    "item": "Dark Hot Chocolate",
+    "pair_count": 39,
+    "confidence": 0.0627,
+    "lift": 1.3016
+   },
+   {
+    "item": "Peppermint Tea",
+    "pair_count": 38,
+    "confidence": 0.0611,
+    "lift": 1.2622
+   },
+   {
+    "item": "Cappuccino",
+    "pair_count": 35,
+    "confidence": 0.0563,
+    "lift": 1.1687
+   },
+   {
+    "item": "Sugar-Free Vanilla Syrup",
+    "pair_count": 11,
+    "confidence": 0.0177,
+    "lift": 1.1456
+   },
+   {
+    "item": "Jamaican Coffee River",
+    "pair_count": 49,
+    "confidence": 0.0788,
+    "lift": 1.1272
+   },
+   {
+    "item": "Latte",
+    "pair_count": 33,
+    "confidence": 0.0531,
+    "lift": 1.0707
+   },
+   {
+    "item": "Espresso",
+    "pair_count": 15,
+    "confidence": 0.0241,
+    "lift": 1.0229
+   },
+   {
+    "item": "Ethiopia Pour-Over",
+    "pair_count": 46,
+    "confidence": 0.074,
+    "lift": 1.0113
+   },
+   {
+    "item": "Chocolate Syrup",
+    "pair_count": 9,
+    "confidence": 0.0145,
+    "lift": 0.9966
+   },
+   {
+    "item": "Earl Grey",
+    "pair_count": 30,
+    "confidence": 0.0482,
+    "lift": 0.9815
+   },
+   {
+    "item": "English Breakfast",
+    "pair_count": 29,
+    "confidence": 0.0466,
+    "lift": 0.9808
+   },
+   {
+    "item": "Old Time Diner Blend",
+    "pair_count": 44,
+    "confidence": 0.0707,
+    "lift": 0.9745
+   },
+   {
+    "item": "Spicy Eye Opener Chai",
+    "pair_count": 29,
+    "confidence": 0.0466,
+    "lift": 0.9709
+   },
+   {
+    "item": "Colombian Drip",
+    "pair_count": 42,
+    "confidence": 0.0675,
+    "lift": 0.9381
+   },
+   {
+    "item": "Morning Sunrise Chai",
+    "pair_count": 27,
+    "confidence": 0.0434,
+    "lift": 0.8751
+   },
+   {
+    "item": "Serenity Green Tea",
+    "pair_count": 26,
+    "confidence": 0.0418,
+    "lift": 0.8705
+   },
+   {
+    "item": "Hazelnut Syrup",
+    "pair_count": 7,
+    "confidence": 0.0113,
+    "lift": 0.8615
+   },
+   {
+    "item": "Brazilian Organic Drip",
+    "pair_count": 39,
+    "confidence": 0.0627,
+    "lift": 0.8601
+   },
+   {
+    "item": "Ouro Brasileiro Espresso",
+    "pair_count": 10,
+    "confidence": 0.0161,
+    "lift": 0.8435
+   },
+   {
+    "item": "Traditional Blend Chai",
+    "pair_count": 25,
+    "confidence": 0.0402,
+    "lift": 0.8335
+   },
+   {
+    "item": "Lemon Grass Tea",
+    "pair_count": 23,
+    "confidence": 0.037,
+    "lift": 0.7876
+   },
+   {
+    "item": "Organic Hot Chocolate",
+    "pair_count": 22,
+    "confidence": 0.0354,
+    "lift": 0.7123
+   }
+  ],
+  "Chocolate Syrup": [
+   {
+    "item": "Cappuccino",
+    "pair_count": 238,
+    "confidence": 0.4183,
+    "lift": 8.6874
+   },
+   {
+    "item": "Espresso",
+    "pair_count": 111,
+    "confidence": 0.1951,
+    "lift": 8.2744
+   },
+   {
+    "item": "Latte",
+    "pair_count": 217,
+    "confidence": 0.3814,
+    "lift": 7.6965
+   },
+   {
+    "item": "Croissant",
+    "pair_count": 15,
+    "confidence": 0.0264,
+    "lift": 1.6043
+   },
+   {
+    "item": "Cranberry Scone",
+    "pair_count": 14,
+    "confidence": 0.0246,
+    "lift": 1.4202
+   },
+   {
+    "item": "Almond Croissant",
+    "pair_count": 11,
+    "confidence": 0.0193,
+    "lift": 1.182
+   },
+   {
+    "item": "Hazelnut Biscotti",
+    "pair_count": 10,
+    "confidence": 0.0176,
+    "lift": 1.028
+   },
+   {
+    "item": "Ginger Biscotti",
+    "pair_count": 9,
+    "confidence": 0.0158,
+    "lift": 1.023
+   },
+   {
+    "item": "Oatmeal Scone",
+    "pair_count": 9,
+    "confidence": 0.0158,
+    "lift": 1.0146
+   },
+   {
+    "item": "Chocolate Chip Biscotti",
+    "pair_count": 9,
+    "confidence": 0.0158,
+    "lift": 0.9966
+   },
+   {
+    "item": "Scottish Cream Scone",
+    "pair_count": 9,
+    "confidence": 0.0158,
+    "lift": 0.9716
+   },
+   {
+    "item": "Jumbo Savory Scone",
+    "pair_count": 8,
+    "confidence": 0.0141,
+    "lift": 0.8139
+   },
+   {
+    "item": "Chocolate Croissant",
+    "pair_count": 11,
+    "confidence": 0.0193,
+    "lift": 0.7992
+   },
+   {
+    "item": "Ginger Scone",
+    "pair_count": 5,
+    "confidence": 0.0088,
+    "lift": 0.437
+   }
+  ],
+  "Croissant": [
+   {
+    "item": "Chocolate Syrup",
+    "pair_count": 15,
+    "confidence": 0.0233,
+    "lift": 1.6043
+   },
+   {
+    "item": "Earl Grey",
+    "pair_count": 46,
+    "confidence": 0.0714,
+    "lift": 1.4535
+   },
+   {
+    "item": "Latte",
+    "pair_count": 40,
+    "confidence": 0.0621,
+    "lift": 1.2535
+   },
+   {
+    "item": "Hazelnut Syrup",
+    "pair_count": 10,
+    "confidence": 0.0155,
+    "lift": 1.1886
+   },
+   {
+    "item": "Traditional Blend Chai",
+    "pair_count": 35,
+    "confidence": 0.0543,
+    "lift": 1.127
+   },
+   {
+    "item": "Cappuccino",
+    "pair_count": 34,
+    "confidence": 0.0528,
+    "lift": 1.0965
+   },
+   {
+    "item": "Ethiopia Pour-Over",
+    "pair_count": 49,
+    "confidence": 0.0761,
+    "lift": 1.0405
+   },
+   {
+    "item": "Sugar-Free Vanilla Syrup",
+    "pair_count": 10,
+    "confidence": 0.0155,
+    "lift": 1.0059
+   },
+   {
+    "item": "Peppermint Tea",
+    "pair_count": 31,
+    "confidence": 0.0481,
+    "lift": 0.9945
+   },
+   {
+    "item": "Old Time Diner Blend",
+    "pair_count": 46,
+    "confidence": 0.0714,
+    "lift": 0.984
+   },
+   {
+    "item": "English Breakfast",
+    "pair_count": 30,
+    "confidence": 0.0466,
+    "lift": 0.98
+   },
+   {
+    "item": "Caramel Syrup",
+    "pair_count": 9,
+    "confidence": 0.014,
+    "lift": 0.9763
+   },
+   {
+    "item": "Organic Hot Chocolate",
+    "pair_count": 31,
+    "confidence": 0.0481,
+    "lift": 0.9695
+   },
+   {
+    "item": "Jamaican Coffee River",
+    "pair_count": 43,
+    "confidence": 0.0668,
+    "lift": 0.9554
+   },
+   {
+    "item": "Espresso",
+    "pair_count": 14,
+    "confidence": 0.0217,
+    "lift": 0.9221
+   },
+   {
+    "item": "Morning Sunrise Chai",
+    "pair_count": 29,
+    "confidence": 0.045,
+    "lift": 0.9078
+   },
+   {
+    "item": "Colombian Drip",
+    "pair_count": 42,
+    "confidence": 0.0652,
+    "lift": 0.9061
+   },
+   {
+    "item": "Dark Hot Chocolate",
+    "pair_count": 27,
+    "confidence": 0.0419,
+    "lift": 0.8703
+   },
+   {
+    "item": "Serenity Green Tea",
+    "pair_count": 26,
+    "confidence": 0.0404,
+    "lift": 0.8407
+   },
+   {
+    "item": "Brazilian Organic Drip",
+    "pair_count": 39,
+    "confidence": 0.0606,
+    "lift": 0.8307
+   },
+   {
+    "item": "Spicy Eye Opener Chai",
+    "pair_count": 25,
+    "confidence": 0.0388,
+    "lift": 0.8084
+   },
+   {
+    "item": "Lemon Grass Tea",
+    "pair_count": 18,
+    "confidence": 0.028,
+    "lift": 0.5953
+   },
+   {
+    "item": "Ouro Brasileiro Espresso",
+    "pair_count": 5,
+    "confidence": 0.0078,
+    "lift": 0.4073
+   }
+  ],
+  "English Breakfast": [
+   {
+    "item": "Hazelnut Biscotti",
+    "pair_count": 34,
+    "confidence": 0.0183,
+    "lift": 1.0676
+   },
+   {
+    "item": "Cranberry Scone",
+    "pair_count": 33,
+    "confidence": 0.0177,
+    "lift": 1.0224
+   },
+   {
+    "item": "Chocolate Chip Biscotti",
+    "pair_count": 29,
+    "confidence": 0.0156,
+    "lift": 0.9808
+   },
+   {
+    "item": "Croissant",
+    "pair_count": 30,
+    "confidence": 0.0161,
+    "lift": 0.98
+   },
+   {
+    "item": "Oatmeal Scone",
+    "pair_count": 27,
+    "confidence": 0.0145,
+    "lift": 0.9296
+   },
+   {
+    "item": "Jumbo Savory Scone",
+    "pair_count": 29,
+    "confidence": 0.0156,
+    "lift": 0.9011
+   },
+   {
+    "item": "Almond Croissant",
+    "pair_count": 27,
+    "confidence": 0.0145,
+    "lift": 0.8861
+   },
+   {
+    "item": "Scottish Cream Scone",
+    "pair_count": 25,
+    "confidence": 0.0134,
+    "lift": 0.8243
+   },
+   {
+    "item": "Ginger Biscotti",
+    "pair_count": 22,
+    "confidence": 0.0118,
+    "lift": 0.7637
+   },
+   {
+    "item": "Chocolate Croissant",
+    "pair_count": 32,
+    "confidence": 0.0172,
+    "lift": 0.7101
+   },
+   {
+    "item": "Ginger Scone",
+    "pair_count": 23,
+    "confidence": 0.0123,
+    "lift": 0.614
+   }
+  ],
+  "Scottish Cream Scone": [
+   {
+    "item": "Lemon Grass Tea",
+    "pair_count": 39,
+    "confidence": 0.0611,
+    "lift": 1.302
+   },
+   {
+    "item": "Latte",
+    "pair_count": 41,
+    "confidence": 0.0643,
+    "lift": 1.2969
+   },
+   {
+    "item": "Sugar-Free Vanilla Syrup",
+    "pair_count": 12,
+    "confidence": 0.0188,
+    "lift": 1.2184
+   },
+   {
+    "item": "Caramel Syrup",
+    "pair_count": 11,
+    "confidence": 0.0172,
+    "lift": 1.2045
+   },
+   {
+    "item": "Organic Hot Chocolate",
+    "pair_count": 37,
+    "confidence": 0.058,
+    "lift": 1.168
+   },
+   {
+    "item": "Spicy Eye Opener Chai",
+    "pair_count": 35,
+    "confidence": 0.0549,
+    "lift": 1.1424
+   },
+   {
+    "item": "Earl Grey",
+    "pair_count": 34,
+    "confidence": 0.0533,
+    "lift": 1.0844
+   },
+   {
+    "item": "Traditional Blend Chai",
+    "pair_count": 33,
+    "confidence": 0.0517,
+    "lift": 1.0726
+   },
+   {
+    "item": "Ethiopia Pour-Over",
+    "pair_count": 50,
+    "confidence": 0.0784,
+    "lift": 1.0717
+   },
+   {
+    "item": "Jamaican Coffee River",
+    "pair_count": 47,
+    "confidence": 0.0737,
+    "lift": 1.0541
+   },
+   {
+    "item": "Serenity Green Tea",
+    "pair_count": 31,
+    "confidence": 0.0486,
+    "lift": 1.0119
+   },
+   {
+    "item": "Dark Hot Chocolate",
+    "pair_count": 30,
+    "confidence": 0.047,
+    "lift": 0.9761
+   },
+   {
+    "item": "Chocolate Syrup",
+    "pair_count": 9,
+    "confidence": 0.0141,
+    "lift": 0.9716
+   },
+   {
+    "item": "Peppermint Tea",
+    "pair_count": 30,
+    "confidence": 0.047,
+    "lift": 0.9715
+   },
+   {
+    "item": "Hazelnut Syrup",
+    "pair_count": 8,
+    "confidence": 0.0125,
+    "lift": 0.9598
+   },
+   {
+    "item": "Espresso",
+    "pair_count": 14,
+    "confidence": 0.0219,
+    "lift": 0.9307
+   },
+   {
+    "item": "Old Time Diner Blend",
+    "pair_count": 42,
+    "confidence": 0.0658,
+    "lift": 0.9069
+   },
+   {
+    "item": "Colombian Drip",
+    "pair_count": 41,
+    "confidence": 0.0643,
+    "lift": 0.8928
+   },
+   {
+    "item": "English Breakfast",
+    "pair_count": 25,
+    "confidence": 0.0392,
+    "lift": 0.8243
+   },
+   {
+    "item": "Morning Sunrise Chai",
+    "pair_count": 23,
+    "confidence": 0.0361,
+    "lift": 0.7268
+   },
+   {
+    "item": "Brazilian Organic Drip",
+    "pair_count": 33,
+    "confidence": 0.0517,
+    "lift": 0.7095
+   },
+   {
+    "item": "Ouro Brasileiro Espresso",
+    "pair_count": 8,
+    "confidence": 0.0125,
+    "lift": 0.6579
+   },
+   {
+    "item": "Cappuccino",
+    "pair_count": 16,
+    "confidence": 0.0251,
+    "lift": 0.5209
+   }
+  ],
+  "Serenity Green Tea": [
+   {
+    "item": "Jumbo Savory Scone",
+    "pair_count": 48,
+    "confidence": 0.0255,
+    "lift": 1.4765
+   },
+   {
+    "item": "Hazelnut Biscotti",
+    "pair_count": 39,
+    "confidence": 0.0207,
+    "lift": 1.2122
+   },
+   {
+    "item": "Scottish Cream Scone",
+    "pair_count": 31,
+    "confidence": 0.0165,
+    "lift": 1.0119
+   },
+   {
+    "item": "Ginger Biscotti",
+    "pair_count": 26,
+    "confidence": 0.0138,
+    "lift": 0.8935
+   },
+   {
+    "item": "Chocolate Chip Biscotti",
+    "pair_count": 26,
+    "confidence": 0.0138,
+    "lift": 0.8705
+   },
+   {
+    "item": "Cranberry Scone",
+    "pair_count": 28,
+    "confidence": 0.0149,
+    "lift": 0.8587
+   },
+   {
+    "item": "Oatmeal Scone",
+    "pair_count": 25,
+    "confidence": 0.0133,
+    "lift": 0.8521
+   },
+   {
+    "item": "Croissant",
+    "pair_count": 26,
+    "confidence": 0.0138,
+    "lift": 0.8407
+   },
+   {
+    "item": "Almond Croissant",
+    "pair_count": 25,
+    "confidence": 0.0133,
+    "lift": 0.8122
+   },
+   {
+    "item": "Chocolate Croissant",
+    "pair_count": 28,
+    "confidence": 0.0149,
+    "lift": 0.6151
+   },
+   {
+    "item": "Ginger Scone",
+    "pair_count": 21,
+    "confidence": 0.0112,
+    "lift": 0.555
+   }
+  ],
+  "Lemon Grass Tea": [
+   {
+    "item": "Scottish Cream Scone",
+    "pair_count": 39,
+    "confidence": 0.0212,
+    "lift": 1.302
+   },
+   {
+    "item": "Ginger Biscotti",
+    "pair_count": 32,
+    "confidence": 0.0174,
+    "lift": 1.1248
+   },
+   {
+    "item": "Almond Croissant",
+    "pair_count": 33,
+    "confidence": 0.0179,
+    "lift": 1.0966
+   },
+   {
+    "item": "Ginger Scone",
+    "pair_count": 36,
+    "confidence": 0.0196,
+    "lift": 0.9731
+   },
+   {
+    "item": "Jumbo Savory Scone",
+    "pair_count": 30,
+    "confidence": 0.0163,
+    "lift": 0.9439
+   },
+   {
+    "item": "Chocolate Chip Biscotti",
+    "pair_count": 23,
+    "confidence": 0.0125,
+    "lift": 0.7876
+   },
+   {
+    "item": "Chocolate Croissant",
+    "pair_count": 35,
+    "confidence": 0.019,
+    "lift": 0.7864
+   },
+   {
+    "item": "Cranberry Scone",
+    "pair_count": 25,
+    "confidence": 0.0136,
+    "lift": 0.7842
+   },
+   {
+    "item": "Hazelnut Biscotti",
+    "pair_count": 22,
+    "confidence": 0.012,
+    "lift": 0.6994
+   },
+   {
+    "item": "Oatmeal Scone",
+    "pair_count": 18,
+    "confidence": 0.0098,
+    "lift": 0.6275
+   },
+   {
+    "item": "Croissant",
+    "pair_count": 18,
+    "confidence": 0.0098,
+    "lift": 0.5953
+   }
+  ],
+  "Organic Hot Chocolate": [
+   {
+    "item": "Scottish Cream Scone",
+    "pair_count": 37,
+    "confidence": 0.019,
+    "lift": 1.168
+   },
+   {
+    "item": "Cranberry Scone",
+    "pair_count": 39,
+    "confidence": 0.02,
+    "lift": 1.1568
+   },
+   {
+    "item": "Almond Croissant",
+    "pair_count": 34,
+    "confidence": 0.0175,
+    "lift": 1.0683
+   },
+   {
+    "item": "Croissant",
+    "pair_count": 31,
+    "confidence": 0.0159,
+    "lift": 0.9695
+   },
+   {
+    "item": "Oatmeal Scone",
+    "pair_count": 28,
+    "confidence": 0.0144,
+    "lift": 0.9229
+   },
+   {
+    "item": "Hazelnut Biscotti",
+    "pair_count": 30,
+    "confidence": 0.0154,
+    "lift": 0.9018
+   },
+   {
+    "item": "Ginger Scone",
+    "pair_count": 33,
+    "confidence": 0.017,
+    "lift": 0.8434
+   },
+   {
+    "item": "Ginger Biscotti",
+    "pair_count": 25,
+    "confidence": 0.0128,
+    "lift": 0.8308
+   },
+   {
+    "item": "Chocolate Chip Biscotti",
+    "pair_count": 22,
+    "confidence": 0.0113,
+    "lift": 0.7123
+   },
+   {
+    "item": "Jumbo Savory Scone",
+    "pair_count": 21,
+    "confidence": 0.0108,
+    "lift": 0.6247
+   },
+   {
+    "item": "Chocolate Croissant",
+    "pair_count": 27,
+    "confidence": 0.0139,
+    "lift": 0.5736
+   }
+  ],
+  "Morning Sunrise Chai": [
+   {
+    "item": "Jumbo Savory Scone",
+    "pair_count": 41,
+    "confidence": 0.0211,
+    "lift": 1.2209
+   },
+   {
+    "item": "Hazelnut Biscotti",
+    "pair_count": 40,
+    "confidence": 0.0206,
+    "lift": 1.2036
+   },
+   {
+    "item": "Ginger Scone",
+    "pair_count": 37,
+    "confidence": 0.019,
+    "lift": 0.9466
+   },
+   {
+    "item": "Oatmeal Scone",
+    "pair_count": 28,
+    "confidence": 0.0144,
+    "lift": 0.9239
+   },
+   {
+    "item": "Croissant",
+    "pair_count": 29,
+    "confidence": 0.0149,
+    "lift": 0.9078
+   },
+   {
+    "item": "Ginger Biscotti",
+    "pair_count": 27,
+    "confidence": 0.0139,
+    "lift": 0.8982
+   },
+   {
+    "item": "Chocolate Chip Biscotti",
+    "pair_count": 27,
+    "confidence": 0.0139,
+    "lift": 0.8751
+   },
+   {
+    "item": "Almond Croissant",
+    "pair_count": 27,
+    "confidence": 0.0139,
+    "lift": 0.8492
+   },
+   {
+    "item": "Cranberry Scone",
+    "pair_count": 25,
+    "confidence": 0.0129,
+    "lift": 0.7423
+   },
+   {
+    "item": "Scottish Cream Scone",
+    "pair_count": 23,
+    "confidence": 0.0118,
+    "lift": 0.7268
+   },
+   {
+    "item": "Chocolate Croissant",
+    "pair_count": 33,
+    "confidence": 0.017,
+    "lift": 0.7018
+   }
+  ]
+ },
+ "cold_start_proxies": {
+  "Americano": {
+   "proxy": "Espresso",
+   "similarity": 0.875,
+   "source": "curated"
+  },
+  "Macchiato": {
+   "proxy": "Espresso",
+   "similarity": 0.4,
+   "source": "curated"
+  },
+  "Cortado": {
+   "proxy": "Cappuccino",
+   "similarity": 0.875,
+   "source": "curated"
+  },
+  "Flat White": {
+   "proxy": "Latte",
+   "similarity": 1.0,
+   "source": "curated"
+  },
+  "Mocha": {
+   "proxy": "Latte",
+   "similarity": 0.778,
+   "source": "curated"
+  },
+  "Honey Oat Latte": {
+   "proxy": "Latte",
+   "similarity": 0.308,
+   "source": "curated"
+  },
+  "Decaf Drip": {
+   "proxy": "Old Time Diner Blend",
+   "similarity": 0.6,
+   "source": "curated"
+  },
+  "Cold Brew": {
+   "proxy": "Brazilian Organic Drip",
+   "similarity": 0.417,
+   "source": "curated"
+  },
+  "Vanilla Sweet Cream Cold Brew": {
+   "proxy": "Brazilian Organic Drip",
+   "similarity": 0.188,
+   "source": "curated"
+  },
+  "Iced Latte": {
+   "proxy": "Latte",
+   "similarity": 0.455,
+   "source": "curated"
+  },
+  "Iced Americano": {
+   "proxy": "Espresso",
+   "similarity": 0.6,
+   "source": "curated"
+  },
+  "Iced Mocha": {
+   "proxy": "Latte",
+   "similarity": 0.417,
+   "source": "curated"
+  },
+  "Chai Latte": {
+   "proxy": "Traditional Blend Chai",
+   "similarity": 0.312,
+   "source": "curated"
+  },
+  "Matcha Latte": {
+   "proxy": "Serenity Green Tea",
+   "similarity": 0.333,
+   "source": "curated"
+  },
+  "London Fog": {
+   "proxy": "Earl Grey",
+   "similarity": 0.462,
+   "source": "curated"
+  },
+  "Vanilla Steamer": {
+   "proxy": "Organic Hot Chocolate",
+   "similarity": 0.417,
+   "source": "curated"
+  },
+  "Blueberry Muffin": {
+   "proxy": "Cranberry Scone",
+   "similarity": 0.714,
+   "source": "curated"
+  },
+  "Banana Bread": {
+   "proxy": "Oatmeal Scone",
+   "similarity": 0.333,
+   "source": "curated"
+  },
+  "Cinnamon Roll": {
+   "proxy": "Chocolate Croissant",
+   "similarity": 0.562,
+   "source": "curated"
+  },
+  "Bacon, Egg & Cheese": {
+   "proxy": "Jumbo Savory Scone",
+   "similarity": 0.263,
+   "source": "curated"
+  },
+  "Egg & Cheese": {
+   "proxy": "Jumbo Savory Scone",
+   "similarity": 0.333,
+   "source": "curated"
+  },
+  "Everything Bagel with Cream Cheese": {
+   "proxy": "Croissant",
+   "similarity": 0.333,
+   "source": "curated"
+  },
+  "Avocado Toast": {
+   "proxy": "Jumbo Savory Scone",
+   "similarity": 0.136,
+   "source": "curated"
+  },
+  "Greek Yogurt Parfait": {
+   "proxy": "Oatmeal Scone",
+   "similarity": 0.158,
+   "source": "curated"
+  },
+  "Steel-Cut Oatmeal": {
+   "proxy": "Oatmeal Scone",
+   "similarity": 0.05,
+   "source": "curated"
+  },
+  "Turkey & Cheddar Sandwich": {
+   "proxy": "Jumbo Savory Scone",
+   "similarity": 0.2,
+   "source": "curated"
+  },
+  "Extra Espresso Shot": {
+   "proxy": "Espresso",
+   "similarity": 0.75,
+   "source": "curated"
+  },
+  "Oat Milk": {
+   "proxy": "Sugar-Free Vanilla Syrup",
+   "similarity": 0.455,
+   "source": "curated"
+  },
+  "Almond Milk": {
+   "proxy": "Hazelnut Syrup",
+   "similarity": 0.545,
+   "source": "curated"
+  },
+  "Soy Milk": {
+   "proxy": "Sugar-Free Vanilla Syrup",
+   "similarity": 0.545,
+   "source": "curated"
+  }
+ }
+}

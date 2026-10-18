@@ -1,0 +1,64 @@
+{"question": "What time do you close on Sundays?", "relevant": ["about.md#working-hours"]}
+{"question": "Are you open on Christmas?", "relevant": ["about.md#working-hours"]}
+{"question": "What's your address?", "relevant": ["about.md#location-and-contact"]}
+{"question": "Which subway stop is closest to the shop?", "relevant": ["about.md#location-and-contact", "faq.md#is-there-parking"]}
+{"question": "Is the almond croissant safe if I have a nut allergy?", "relevant": ["menu/bakery.md#almond-croissant", "policies/allergens_and_dietary.md#nut-allergies"]}
+{"question": "Which pastries don't have nuts in them?", "relevant": ["policies/allergens_and_dietary.md#nut-allergies", "menu/bakery.md#ginger-biscotti"]}
+{"question": "Do you have any vegan pastries?", "relevant": ["policies/allergens_and_dietary.md#dairy-free-and-vegan-options", "menu/bakery.md#bakery"]}
+{"question": "I'm lactose intolerant, what can I drink?", "relevant": ["policies/allergens_and_dietary.md#dairy-free-and-vegan-options", "menu/add_ons.md#milk-alternatives"]}
+{"question": "Do you have gluten free options?", "relevant": ["policies/allergens_and_dietary.md#gluten-free-options"]}
+{"question": "How much caffeine is in a latte?", "relevant": ["menu/espresso_drinks.md#latte", "policies/allergens_and_dietary.md#pregnancy-and-caffeine"]}
+{"question": "What's the difference between a flat white and a latte?", "relevant": ["menu/espresso_drinks.md#flat-white", "menu/espresso_drinks.md#latte"]}
+{"question": "Something warm for my kid that isn't coffee?", "relevant": ["menu/hot_chocolate_and_steamers.md#kids-hot-chocolate", "faq.md#do-you-have-a-kids-menu", "menu/hot_chocolate_and_steamers.md#dark-hot-chocolate"]}
+{"question": "Can I get oat milk and how much extra is it?", "relevant": ["menu/add_ons.md#milk-alternatives"]}
+{"question": "Does a large cost more than a small?", "relevant": ["menu/add_ons.md#sizes", "menu/espresso_drinks.md#espresso-drinks"]}
+{"question": "Is there a syrup without sugar?", "relevant": ["menu/add_ons.md#sugar-free-vanilla-syrup", "policies/allergens_and_dietary.md#low-sugar-and-low-caffeine"]}
+{"question": "Does the caramel syrup have dairy?", "relevant": ["menu/add_ons.md#caramel-syrup"]}
+{"question": "Can I get any drink decaf?", "relevant": ["menu/espresso_drinks.md#decaf-and-iced-drinks"]}
+{"question": "Do you make iced coffee?", "relevant": ["menu/espresso_drinks.md#decaf-and-iced-drinks", "menu/espresso_drinks.md#americano", "menu/cold_coffee.md#cold-coffee", "faq.md#do-you-serve-cold-brew-or-iced-drinks", "menu/cold_coffee.md#iced-americano", "menu/cold_coffee.md#iced-latte"]}
+{"question": "What's in the savory scone?", "relevant": ["menu/bakery.md#jumbo-savory-scone"]}
+{"question": "Which beans are good for pour over?", "relevant": ["brewing_guides.md#pour-over-v60-or-chemex", "retail/coffee_beans.md#ethiopia"]}
+{"question": "Tell me about the Ethiopian coffee", "relevant": ["retail/coffee_beans.md#ethiopia", "menu/brewed_coffee.md#ethiopia-pour-over"]}
+{"question": "What's the most expensive coffee you sell?", "relevant": ["retail/coffee_beans.md#civet-cat"]}
+{"question": "Do you sell green beans I can roast myself?", "relevant": ["retail/coffee_beans.md#guatemalan-sustainably-grown"]}
+{"question": "Which espresso do you use behind the counter?", "relevant": ["retail/coffee_beans.md#espresso-roast", "menu/espresso_drinks.md#espresso-drinks"]}
+{"question": "How do I make french press coffee at home?", "relevant": ["brewing_guides.md#french-press"]}
+{"question": "What temperature should I steep green tea at?", "relevant": ["brewing_guides.md#steeping-tea"]}
+{"question": "Do you have a caffeine free tea?", "relevant": ["retail/loose_tea.md#peppermint", "retail/loose_tea.md#lemon-grass", "menu/tea.md#peppermint-tea", "menu/tea.md#lemon-grass-tea"]}
+{"question": "Can I order a bag of beans for delivery?", "relevant": ["policies/delivery.md#what-can-be-delivered", "retail/coffee_beans.md#whole-bean-coffee"]}
+{"question": "Do you deliver to Brooklyn?", "relevant": ["policies/delivery.md#delivery-area"]}
+{"question": "How much is delivery?", "relevant": ["policies/delivery.md#delivery-fees-and-minimum"]}
+{"question": "How long will my delivery take?", "relevant": ["policies/delivery.md#delivery-times"]}
+{"question": "How long do you hold pickup orders?", "relevant": ["policies/delivery.md#pickup"]}
+{"question": "My drink arrived spilled, can I get my money back?", "relevant": ["policies/orders_and_refunds.md#refunds-and-remakes"]}
+{"question": "How do I cancel my order?", "relevant": ["policies/orders_and_refunds.md#cancelling-an-order"]}
+{"question": "Do you take Apple Pay?", "relevant": ["policies/orders_and_refunds.md#payment-methods"]}
+{"question": "Do gift cards expire?", "relevant": ["policies/orders_and_refunds.md#gift-cards", "faq.md#do-you-sell-gift-cards"]}
+{"question": "How many points do I need for a free drink?", "relevant": ["loyalty_program.md#rewards"]}
+{"question": "Do I get anything on my birthday?", "relevant": ["loyalty_program.md#member-perks"]}
+{"question": "What's the wifi password?", "relevant": ["faq.md#do-you-have-wi-fi"]}
+{"question": "Can I bring my dog inside?", "relevant": ["faq.md#are-dogs-allowed"]}
+{"question": "Is the shop wheelchair accessible?", "relevant": ["faq.md#is-the-shop-wheelchair-accessible"]}
+{"question": "Is it ok to work on my laptop all day?", "relevant": ["faq.md#can-i-work-on-my-laptop"]}
+{"question": "Do you do coffee for office meetings?", "relevant": ["catering_and_events.md#office-catering"]}
+{"question": "Do you teach latte art?", "relevant": ["catering_and_events.md#latte-art-and-coffee-classes"]}
+{"question": "Are your cups compostable?", "relevant": ["catering_and_events.md#sustainability"]}
+{"question": "Is there a discount for bringing my own mug?", "relevant": ["faq.md#can-i-bring-my-own-cup", "catering_and_events.md#sustainability"]}
+{"question": "Are you hiring baristas?", "relevant": ["faq.md#are-you-hiring"]}
+{"question": "Do you sell t-shirts?", "relevant": ["retail/chocolate_and_merchandise.md#i-need-my-bean-t-shirt"]}
+{"question": "Do you serve smoothies?", "relevant": ["faq.md#do-you-serve-smoothies-or-frozen-drinks"]}
+{"question": "Which biscotti is best for dunking in coffee?", "relevant": ["menu/bakery.md#chocolate-chip-biscotti", "menu/bakery.md#hazelnut-biscotti", "menu/bakery.md#ginger-biscotti"]}
+{"question": "Do you serve tea?", "relevant": ["faq.md#do-you-serve-tea", "menu/tea.md#tea-tea-lattes"]}
+{"question": "Is there a caffeine-free tea I can order?", "relevant": ["menu/tea.md#peppermint-tea", "menu/tea.md#lemon-grass-tea", "policies/allergens_and_dietary.md#low-sugar-and-low-caffeine"]}
+{"question": "What's the cheapest coffee you have?", "relevant": ["menu/brewed_coffee.md#old-time-diner-blend", "menu/brewed_coffee.md#colombian-drip"]}
+{"question": "Can I get a chai latte?", "relevant": ["menu/tea.md#traditional-blend-chai", "faq.md#do-you-serve-tea"]}
+{"question": "How long does a pour-over take?", "relevant": ["menu/brewed_coffee.md#ethiopia-pour-over"]}
+{"question": "Do you give free refills?", "relevant": ["menu/brewed_coffee.md#brewed-coffee", "menu/brewed_coffee.md#old-time-diner-blend"]}
+{"question": "What comes with the Scottish cream scone?", "relevant": ["menu/bakery.md#scottish-cream-scone"]}
+{"question": "How is the organic hot chocolate different from the dark chocolate?", "relevant": ["menu/hot_chocolate_and_steamers.md#organic-hot-chocolate"]}
+{"question": "Do you have cold brew?", "relevant": ["menu/cold_coffee.md#cold-brew", "faq.md#do-you-serve-cold-brew-or-iced-drinks"]}
+{"question": "Do you serve breakfast sandwiches?", "relevant": ["menu/breakfast_and_lunch.md#bacon-egg-cheese", "menu/breakfast_and_lunch.md#egg-cheese", "faq.md#do-you-serve-food", "menu/breakfast_and_lunch.md#breakfast-lunch"]}
+{"question": "Is there a vegan pastry?", "relevant": ["menu/bakery.md#banana-bread", "policies/allergens_and_dietary.md#dairy-free-and-vegan-options", "menu/bakery.md#bakery"]}
+{"question": "What's in the matcha latte?", "relevant": ["menu/tea.md#matcha-latte"]}
+{"question": "What can I eat that's gluten free?", "relevant": ["policies/allergens_and_dietary.md#gluten-free-options", "menu/breakfast_and_lunch.md#steel-cut-oatmeal", "menu/breakfast_and_lunch.md#greek-yogurt-parfait"]}
+{"question": "What's the difference between a cortado and a macchiato?", "relevant": ["menu/espresso_drinks.md#cortado", "menu/espresso_drinks.md#macchiato"]}

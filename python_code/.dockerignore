@@ -1,0 +1,7 @@
+**/.env
+**/__pycache__/
+.venv/
+.venv-local/
+dataset/
+*.ipynb
+api/test_input.json

@@ -1,0 +1,81 @@
+Menu Items
+
+Espresso Drinks
+Espresso - $2.00
+Ouro Brasileiro Espresso - $3.00
+Americano - $3.75
+Macchiato - $3.50
+Cortado - $4.00
+Cappuccino - $4.50
+Flat White - $5.00
+Latte - $4.75
+Mocha - $5.50
+Honey Oat Latte - $5.75
+
+Brewed Coffee
+Old Time Diner Blend - $2.50
+Colombian Drip - $2.50
+Decaf Drip - $2.75
+Brazilian Organic Drip - $3.00
+Ethiopia Pour-Over - $3.00
+Jamaican Coffee River - $3.10
+
+Cold Coffee
+Cold Brew - $4.25
+Vanilla Sweet Cream Cold Brew - $5.25
+Iced Latte - $4.75
+Iced Americano - $3.75
+Iced Mocha - $5.50
+
+Tea & Tea Lattes
+Earl Grey - $2.50
+English Breakfast - $3.00
+Serenity Green Tea - $2.50
+Peppermint Tea - $2.50
+Lemon Grass Tea - $2.50
+Traditional Blend Chai - $2.50
+Morning Sunrise Chai - $2.50
+Spicy Eye Opener Chai - $3.10
+Chai Latte - $4.75
+Matcha Latte - $5.50
+London Fog - $4.75
+
+Hot Chocolate & Steamers
+Dark Hot Chocolate - $5.00
+Organic Hot Chocolate - $4.75
+Vanilla Steamer - $3.75
+
+Bakery
+Croissant - $3.25
+Chocolate Croissant - $3.75
+Almond Croissant - $4.00
+Jumbo Savory Scone - $3.25
+Cranberry Scone - $3.50
+Oatmeal Scone - $3.25
+Ginger Scone - $3.50
+Scottish Cream Scone - $4.50
+Chocolate Chip Biscotti - $2.50
+Hazelnut Biscotti - $2.75
+Ginger Biscotti - $2.50
+Blueberry Muffin - $3.50
+Banana Bread - $3.75
+Cinnamon Roll - $4.25
+
+Breakfast & Lunch
+Bacon, Egg & Cheese - $6.50
+Egg & Cheese - $5.50
+Everything Bagel with Cream Cheese - $4.25
+Avocado Toast - $9.50
+Greek Yogurt Parfait - $6.00
+Steel-Cut Oatmeal - $5.25
+Turkey & Cheddar Sandwich - $11.00
+
+Add-ons
+Extra Espresso Shot - $1.00
+Oat Milk - $0.75
+Almond Milk - $0.75
+Soy Milk - $0.75
+Caramel Syrup - $1.50
+Chocolate Syrup - $1.50
+Hazelnut Syrup - $1.50
+Sugar-Free Vanilla Syrup - $1.50

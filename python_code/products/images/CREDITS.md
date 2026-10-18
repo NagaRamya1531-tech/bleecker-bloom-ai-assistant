@@ -1,0 +1,48 @@
+# Product image credits
+
+Photos for menu items added in 2026 come from Wikimedia Commons under the licenses below. They were resized to at most 800 px and re-encoded; any other changes are noted.
+
+| Menu item | File | Author | License |
+|---|---|---|---|
+| Ouro Brasileiro Espresso | [Espresso shot in a cappuccino cup.jpg](https://commons.wikimedia.org/wiki/File:Espresso_shot_in_a_cappuccino_cup.jpg) | massage-techniques | [CC BY 2.0](https://creativecommons.org/licenses/by/2.0) |
+| Macchiato | [Caffè macchiato in Hotel Moskva, Belgrade 02.jpg](https://commons.wikimedia.org/wiki/File:Caff%C3%A8_macchiato_in_Hotel_Moskva,_Belgrade_02.jpg) | BuhaM | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) |
+| Cortado | [2021 cortado Poznan.jpg](https://commons.wikimedia.org/wiki/File:2021_cortado_Poznan.jpg) | MOs810 | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) |
+| Honey Oat Latte | [Chai latte - Cafe Coho, Queens Road, Brighton 2024-03-06.jpg](https://commons.wikimedia.org/wiki/File:Chai_latte_-_Cafe_Coho,_Queens_Road,_Brighton_2024-03-06.jpg) | Andy Li | [CC0](http://creativecommons.org/publicdomain/zero/1.0/deed.en) |
+| Old Time Diner Blend | [Coffee mug on table.jpg](https://commons.wikimedia.org/wiki/File:Coffee_mug_on_table.jpg) | Adam S. Keck | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) |
+| Colombian Drip | [A small cup of coffee.JPG](https://commons.wikimedia.org/wiki/File:A_small_cup_of_coffee.JPG) | Julius Schorzman | [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0) |
+| Decaf Drip | [Black coffee with saucer and spoon.jpg](https://commons.wikimedia.org/wiki/File:Black_coffee_with_saucer_and_spoon.jpg) | Dennis Wong from Hong Kong, Hong Kong | [CC BY 2.0](https://creativecommons.org/licenses/by/2.0) |
+| Brazilian Organic Drip | [Coffee cup surrounded by coffee beans.jpg](https://commons.wikimedia.org/wiki/File:Coffee_cup_surrounded_by_coffee_beans.jpg) | Petr Kratochvil | [CC0](http://creativecommons.org/publicdomain/zero/1.0/deed.en) |
+| Ethiopia Pour-Over | [Manual drip (pour-over) coffee.jpg](https://commons.wikimedia.org/wiki/File:Manual_drip_(pour-over)_coffee.jpg) | Kim Sanso | [CC0](http://creativecommons.org/publicdomain/zero/1.0/deed.en) |
+| Jamaican Coffee River | [Black coffee in a white cup served on a saucer with stirring spoon.jpg](https://commons.wikimedia.org/wiki/File:Black_coffee_in_a_white_cup_served_on_a_saucer_with_stirring_spoon.jpg) | Evan Swigart from Chicago, USA | [CC BY 2.0](https://creativecommons.org/licenses/by/2.0) |
+| Cold Brew | [Iced Coffee (6088101587).jpg](https://commons.wikimedia.org/wiki/File:Iced_Coffee_(6088101587).jpg) (cropped) | rumpleteaser from Nagoya, Japan | [CC BY 2.0](https://creativecommons.org/licenses/by/2.0) |
+| Vanilla Sweet Cream Cold Brew | [Cold brew with whipped cream.jpg](https://commons.wikimedia.org/wiki/File:Cold_brew_with_whipped_cream.jpg) | Sayantan Sarkar | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) |
+| Iced Latte | [Iced latte - BROR 2025-04-26.jpg](https://commons.wikimedia.org/wiki/File:Iced_latte_-_BROR_2025-04-26.jpg) | Andy Li | [CC0](http://creativecommons.org/publicdomain/zero/1.0/deed.en) |
+| Iced Americano | [Iced Coffee in Glass - Sunshine Coffee - Laramie Cafe (53838344552).jpg](https://commons.wikimedia.org/wiki/File:Iced_Coffee_in_Glass_-_Sunshine_Coffee_-_Laramie_Cafe_(53838344552).jpg) | Tony Webster | [CC BY 2.0](https://creativecommons.org/licenses/by/2.0) |
+| Iced Mocha | [Iced White Mocha in a Glass Jug.jpg](https://commons.wikimedia.org/wiki/File:Iced_White_Mocha_in_a_Glass_Jug.jpg) | Michael Scialdone | [CC BY 2.0](https://creativecommons.org/licenses/by/2.0) |
+| Earl Grey | [Frisch aufgebrühter EarlGrey Tee.jpg](https://commons.wikimedia.org/wiki/File:Frisch_aufgebr%C3%BChter_EarlGrey_Tee.jpg) | soultea.de/André Helbig | [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0) |
+| English Breakfast | [Morning breakfast with a cup of milk tea and biscuits (এক কাপ দুধ চা ও বিস্কুটের সাথে সকালের নাস্তা).jpg](https://commons.wikimedia.org/wiki/File:Morning_breakfast_with_a_cup_of_milk_tea_and_biscuits_(%E0%A6%8F%E0%A6%95_%E0%A6%95%E0%A6%BE%E0%A6%AA_%E0%A6%A6%E0%A7%81%E0%A6%A7_%E0%A6%9A%E0%A6%BE_%E0%A6%93_%E0%A6%AC%E0%A6%BF%E0%A6%B8%E0%A7%8D%E0%A6%95%E0%A7%81%E0%A6%9F%E0%A7%87%E0%A6%B0_%E0%A6%B8%E0%A6%BE%E0%A6%A5%E0%A7%87_%E0%A6%B8%E0%A6%95%E0%A6%BE%E0%A6%B2%E0%A7%87%E0%A6%B0_%E0%A6%A8%E0%A6%BE%E0%A6%B8%E0%A7%8D%E0%A6%A4%E0%A6%BE).jpg) | HridoyKundu | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) |
+| Serenity Green Tea | [White cup with green tea in it.jpg](https://commons.wikimedia.org/wiki/File:White_cup_with_green_tea_in_it.jpg) | Douglas P Perkins | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0) |
+| Peppermint Tea | [Moroccan Mint Tea - 1.jpg](https://commons.wikimedia.org/wiki/File:Moroccan_Mint_Tea_-_1.jpg) | Sarkar Sayantan | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) |
+| Lemon Grass Tea | [Lemongrass tea.jpg](https://commons.wikimedia.org/wiki/File:Lemongrass_tea.jpg) | Andrea Nguyen | [CC BY 2.0](https://creativecommons.org/licenses/by/2.0) |
+| Traditional Blend Chai | [Masala Chai.JPG](https://commons.wikimedia.org/wiki/File:Masala_Chai.JPG) | Miansari66 | Public domain |
+| Morning Sunrise Chai | [Chai (Tea) 2.jpg](https://commons.wikimedia.org/wiki/File:Chai_(Tea)_2.jpg) | Gannu03 | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) |
+| Spicy Eye Opener Chai | [Karak Tea.jpg](https://commons.wikimedia.org/wiki/File:Karak_Tea.jpg) | Gaurav Dhwaj Khadka | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) |
+| Chai Latte | [Chai Latte - The Flour Pot Bakery 2026-05-20.jpg](https://commons.wikimedia.org/wiki/File:Chai_Latte_-_The_Flour_Pot_Bakery_2026-05-20.jpg) | Andy Li | [CC0](http://creativecommons.org/publicdomain/zero/1.0/deed.en) |
+| Matcha Latte | [Matcha tea latte with rosetta latte art.jpg](https://commons.wikimedia.org/wiki/File:Matcha_tea_latte_with_rosetta_latte_art.jpg) | Irvan Ary Maulana | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) |
+| London Fog | [London fog latte - Jolliffes Coffee Shop 2024-01-07.jpg](https://commons.wikimedia.org/wiki/File:London_fog_latte_-_Jolliffes_Coffee_Shop_2024-01-07.jpg) | Andy Li | [CC0](http://creativecommons.org/publicdomain/zero/1.0/deed.en) |
+| Organic Hot Chocolate | [Heisse Schokolade mit Stern.JPG](https://commons.wikimedia.org/wiki/File:Heisse_Schokolade_mit_Stern.JPG) | Usien | [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0) |
+| Vanilla Steamer | [Hot steamed milk.jpg](https://commons.wikimedia.org/wiki/File:Hot_steamed_milk.jpg) | Scudsvlad | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) |
+| Scottish Cream Scone | [Scone Jam Cream Tea.jpg](https://commons.wikimedia.org/wiki/File:Scone_Jam_Cream_Tea.jpg) | Alpha from Melbourne, Australia | [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0) |
+| Blueberry Muffin | [Muffin NIH.jpg](https://commons.wikimedia.org/wiki/File:Muffin_NIH.jpg) | National Cancer Institute, Renee Comet (photographer) | Public domain |
+| Banana Bread | [Banana bread slices.jpg](https://commons.wikimedia.org/wiki/File:Banana_bread_slices.jpg) | Shisma | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) |
+| Cinnamon Roll | [Classic roll.jpg](https://commons.wikimedia.org/wiki/File:Classic_roll.jpg) | Btotanes | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0) |
+| Bacon, Egg & Cheese | [Bacon, egg, and cheese on bread.jpg](https://commons.wikimedia.org/wiki/File:Bacon,_egg,_and_cheese_on_bread.jpg) | jeffreyw | [CC BY 2.0](https://creativecommons.org/licenses/by/2.0) |
+| Everything Bagel with Cream Cheese | [The American Everything Bagel.jpg](https://commons.wikimedia.org/wiki/File:The_American_Everything_Bagel.jpg) | woodleywonderworks | [CC BY 2.0](https://creativecommons.org/licenses/by/2.0) |
+| Avocado Toast | [Avocado toast with sesame seeds.jpg](https://commons.wikimedia.org/wiki/File:Avocado_toast_with_sesame_seeds.jpg) | Jami430 | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) |
+| Greek Yogurt Parfait | [Yogurt parfait with granola and blueberries in shot glasses with silverware spoons (17098581522).jpg](https://commons.wikimedia.org/wiki/File:Yogurt_parfait_with_granola_and_blueberries_in_shot_glasses_with_silverware_spoons_(17098581522).jpg) | Personal Creations | [CC BY 2.0](https://creativecommons.org/licenses/by/2.0) |
+| Steel-Cut Oatmeal | [Oatmeal with Berries.jpg](https://commons.wikimedia.org/wiki/File:Oatmeal_with_Berries.jpg) | Clarissa Savel | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) |
+| Turkey & Cheddar Sandwich | [Korbel Champagne Cellars - Stierch - April 2019 05.jpg](https://commons.wikimedia.org/wiki/File:Korbel_Champagne_Cellars_-_Stierch_-_April_2019_05.jpg) | Missvain | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) |
+| Extra Espresso Shot | [Espresso shot close-up.jpg](https://commons.wikimedia.org/wiki/File:Espresso_shot_close-up.jpg) | Deerpeter | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) |
+| Oat Milk | [Oatmilk 1.jpg](https://commons.wikimedia.org/wiki/File:Oatmilk_1.jpg) | Mx. Granger | [CC0](http://creativecommons.org/publicdomain/zero/1.0/deed.en) |
+| Almond Milk | [004-almondmilk.jpg](https://commons.wikimedia.org/wiki/File:004-almondmilk.jpg) | Kjokkenutstyr | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) |
+| Soy Milk | [Soy milk (2).jpg](https://commons.wikimedia.org/wiki/File:Soy_milk_(2).jpg) | LinasD (this version uploaded by SlimVirgin) | [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0) |

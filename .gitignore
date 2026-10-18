@@ -1,0 +1,6 @@
+**/.env
+python_code/.venv-local/
+**/npm_installs.txt
+**/__pycache__/
+python_code/api/rag/.chroma/
+.DS_Store
