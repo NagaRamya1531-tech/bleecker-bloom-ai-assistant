@@ -233,6 +233,4 @@ npx eas-cli deploy --prod
 
 ---
 
-## Acknowledgements
 
-Started from Abdullah Tarek's coffee-shop chatbot tutorial. Product photos are from Wikimedia Commons; see `python_code/products/images/CREDITS.md`. Sales data is a public coffee-shop sample dataset (April 2019).
