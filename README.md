@@ -5,10 +5,13 @@ A coffee-shop ordering app with an AI assistant that answers questions, recommen
 **🔗 Live demo:** https://bleecker-and-bloom.expo.app
 <sub>Works on phone and desktop. The first chat message can take about a minute while the servers wake up.</sub>
 
+> **In one line:** an AI barista that answers questions, recommends drinks and food, and takes orders for a coffee shop, without making things up.
+
 ---
 
 ## Contents
 
+1. [What it's for](#what-its-for)
 1. [Why I built it](#why-i-built-it)
 2. [What it does](#what-it-does)
 3. [Architecture](#architecture)
@@ -21,6 +24,24 @@ A coffee-shop ordering app with an AI assistant that answers questions, recommen
 10. [Deployment](#deployment)
 
 ---
+
+## What it's for
+
+Bleecker & Bloom is a coffee shop's ordering app with a built-in AI assistant. Customers can browse the menu and order the usual way, or just chat with it like they would with a barista.
+
+**For customers**
+
+- **Ask questions:** "Is the almond croissant safe for a nut allergy?", "Do you deliver?", "What are your hours?" Answers come from the shop's own information, with sources.
+- **Order by chatting:** "Two lattes and a croissant" → "make it one latte" → "that's all". The cart updates and the total is always correct.
+- **Get suggestions:** "Something vegan under $5" or "What goes with my latte?" Recommendations are based on what real customers buy together.
+- **Browse and buy:** menu with photos, item details, cart, and checkout.
+
+**For the coffee shop**
+
+- **Less work for staff:** the assistant answers the same questions (hours, allergens, delivery) all day.
+- **More sales:** useful "you might also like…" suggestions add items to orders, like "Customers also bought" in online stores.
+- **Safety and trust:** it never invents menu items or prices, and allergy answers come straight from the allergen data.
+- **Always available:** customers can order or ask questions at any hour, from their phone.
 
 ## Why I built it
 
